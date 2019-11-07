@@ -1,0 +1,118 @@
+/*
+Theme Name:   Aseir Custom
+Theme URI:    https://github.com/TheTravisM/
+Author:       Travis E Mikolay
+Author URI:   https://github.com/TheTravisM/
+Template:     storefront
+Description:  Designed and developed by Travis Mikolay, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more.
+Version:      1.11.7
+License:      GNU General Public License v2 or later
+License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  storefrontchild
+Tags:         kick ass, Awesome, e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+All sizing (typography, layout, padding/margins, etc) are inspired by a modular scale that uses 1em as a base size with a 1.618 ratio.
+You can read more about the calculator we use in our Sass here: https://github.com/modularscale/modularscale-sass
+
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+Images License: GNU General Public License v2 or later
+*/
+
+:root {
+  /* Color Theme Swatches in Hex */
+  /* Yellow */
+  --color-primary: #d4af37;
+  --color-primary-light: #ffe168;
+  --color-primary-dark: #9f8000;
+  /* Blue */
+  --color-secondary: #0058de;
+  --color-secondary-light: #6284ff;
+  --color-secondary-dark: #0030aa;
+  /* Black */ 
+  --color-dark: #16161d;
+  --color-dark-rgba: rgba(22,22,29,1);
+  --color-darkest: #000;
+
+
+  /* Transition */
+  --transition: all 0.35s ease-in;
+  --transition-slower: all 0.70s ease-in;
+  --transition-faster: all 0.20s ease-in;
+}
+
+/* Links */
+html body a,
+html body a:visited {
+  color: var( --color-primary, #d4af37 );
+  font-weight: bold;
+  text-decoration: none;
+}
+
+html body a:hover,
+html body a:focus,
+html body a:active {
+  color: var( --color-primary-dark, #9f8000 );
+  text-decoration: none;
+}
+
+/* Body */
+html body { 
+  color: var( --color-dark, #16161d );
+}
+
+/* Header */
+header.site-header {
+  color: #fff;
+  background-color: var( --color-dark, #16161d );
+}
+
+header.site-header a,
+header.site-header a:visited { 
+  color: var( --color-primary, #d4af37 );
+}
+
+header.site-header a:hover,
+header.site-header a:focus,
+header.site-header a:active {
+  color: var( --color-primary-light, #ffe168 );
+  text-decoration: none;
+}
+
+/* Header - Primary Nav */
+nav.site-navigation .main-navigation ul li a,
+nav.site-navigation .main-navigation ul li a:visited {
+  color: var( --color-primary, #d4af37 );
+}
+
+nav.site-navigation .main-navigation a:hover,
+nav.site-navigation .main-navigation a:focus,
+nav.site-navigation .main-navigation a:active {
+  color: var( --color-primary-light, #ffe168 );
+  text-decoration: none;
+}
+
+.site-header ul.menu li.current-menu-item > a {
+  color: #747474;
+}
+
+/* Footer */
+footer.site-footer {
+  color: #fff;
+  background-color: var( --color-dark, #16161d );
+}
+
+footer.site-footer a,
+footer.site-footer a:visited,
+footer.site-footer a:not(.button) { 
+  color: var( --color-primary, #d4af37 );
+}
+
+footer.site-footer a:hover,
+footer.site-footer a:focus,
+footer.site-footer a:active {
+  color: var( --color-primary-light, #ffe168 );
+  text-decoration: none;
+}
