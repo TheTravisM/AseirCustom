@@ -20,99 +20,52 @@ You can read more about the calculator we use in our Sass here: https://github.c
 FontAwesome License: SIL Open Font License - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 Images License: GNU General Public License v2 or later
 */
-
 :root {
-  /* Color Theme Swatches in Hex */
-  /* Yellow */
-  --color-primary: #d4af37;
-  --color-primary-light: #ffe168;
-  --color-primary-dark: #9f8000;
-  /* Blue */
-  --color-secondary: #0058de;
-  --color-secondary-light: #6284ff;
-  --color-secondary-dark: #0030aa;
-  /* Black */ 
-  --color-dark: #16161d;
-  --color-dark-rgba: rgba(22,22,29,1);
-  --color-darkest: #000;
+    /* -- [ Color Theme Swatches in Hex ] -- */
 
+    /* -- [ Aseir Custom : Yellow ] -- */
+    --color-ac-yellow: #d4af37;
+    --color-ac-yellow-light: #ffe168;
+    --color-ac-yellow-dark: #9f8000;
+    /* -- [ Aseir Custom : Blue ] -- */
+    --color-ac-blue: #0058de;
+    --color-ac-blue-light: #6284ff;
+    --color-ac-blue-dark: #0030aa;
+    /* -- [ Black ] -- */
+    --color-dark: #16161d;
+    --color-dark-rgba: rgba(22, 22, 29, 1);
+    --color-darkest: #000;
 
-  /* Transition */
-  --transition: all 0.35s ease-in;
-  --transition-slower: all 0.70s ease-in;
-  --transition-faster: all 0.20s ease-in;
+    /* -- [ Danger - Red ] -- */
+    --color-danger: #e2401c; /* Red */
+    --color-success: #28a745; /* green */
+    --color-warning: #ffc107 /* yellow */
 }
 
-/* Links */
-html body a,
-html body a:visited {
-  color: var( --color-primary, #d4af37 );
-  font-weight: bold;
-  text-decoration: none;
+/* -- Header -- */
+
+/* -- [ Single Product Page ] -- */
+
+.you-save {
+    color: var( --color-danger, #e2401c ); /* Red */
+    font-size:24px;
 }
 
-html body a:hover,
-html body a:focus,
-html body a:active {
-  color: var( --color-primary-dark, #9f8000 );
-  text-decoration: none;
+/* -- [ Single Page Stock  ] -- */
+html body .stock.in-stock {
+    color: var( --color-success, #28a745 ) ; /* green */
+}
+html body .product .stock.out-of-stock {
+    color: var( --color-danger, #e2401c ); /* Red */
+}
+/* -- [ Checkout Page ] -- */
+
+/* -- hiding items to streamline checkout -- */
+html body.woocommerce-checkout .storefront-primary-navigation,
+html body.woocommerce-checkout .site-search,
+html body.woocommerce-checkout .footer-widgets {
+    display: none;
 }
 
-/* Body */
-html body { 
-  color: var( --color-dark, #16161d );
-}
-
-/* Header */
-header.site-header {
-  color: #fff;
-  background-color: var( --color-dark, #16161d );
-}
-
-header.site-header a,
-header.site-header a:visited { 
-  color: var( --color-primary, #d4af37 );
-}
-
-header.site-header a:hover,
-header.site-header a:focus,
-header.site-header a:active {
-  color: var( --color-primary-light, #ffe168 );
-  text-decoration: none;
-}
-
-/* Header - Primary Nav */
-nav.site-navigation .main-navigation ul li a,
-nav.site-navigation .main-navigation ul li a:visited {
-  color: var( --color-primary, #d4af37 );
-}
-
-nav.site-navigation .main-navigation a:hover,
-nav.site-navigation .main-navigation a:focus,
-nav.site-navigation .main-navigation a:active {
-  color: var( --color-primary-light, #ffe168 );
-  text-decoration: none;
-}
-
-.site-header ul.menu li.current-menu-item > a {
-  color: #747474;
-}
-
-/* Footer */
-footer.site-footer {
-  color: #fff;
-  background-color: var( --color-dark, #16161d );
-}
-
-footer.site-footer a,
-footer.site-footer a:visited,
-footer.site-footer a:not(.button) { 
-  color: var( --color-primary, #d4af37 );
-}
-
-footer.site-footer a:hover,
-footer.site-footer a:focus,
-footer.site-footer a:active {
-  color: var( --color-primary-light, #ffe168 );
-  text-decoration: none;
-}
+/* -- Account Page -- */
+html body.woocommerce-account { }
