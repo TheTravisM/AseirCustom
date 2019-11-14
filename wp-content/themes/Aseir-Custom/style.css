@@ -5,7 +5,7 @@ Author:       Travis E Mikolay
 Author URI:   https://github.com/TheTravisM/
 Template:     storefront
 Description:  Designed and developed by Travis Mikolay, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more.
-Version:      1.11.7
+Version:      1.11.14
 License:      GNU General Public License v2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  storefrontchild
@@ -42,7 +42,36 @@ Images License: GNU General Public License v2 or later
     --color-warning: #ffc107 /* yellow */
 }
 
-/* -- Header -- */
+/* -- Header --
+header.aseir-custom-header {
+    margin: 0 auto;
+    padding: 0;
+}
+h1.aseir-header_logo {
+    margin: 0;
+    padding: 0;
+}
+svg#aseir-logo-lg {
+    display: none;
+    height: 100px;
+}
+svg#aseir-logo-sm {
+    height: 42px;
+}
+@media (min-width: 768px) {
+    svg#aseir-logo-lg {
+        display: block;
+    }
+    svg#aseir-logo-sm {
+        display: none;
+    }
+}
+-- */
+
+/* -- Site Header Cart -- */
+#site-header-cart {
+
+}
 
 /* -- [ Single Product Page ] -- */
 
@@ -58,6 +87,11 @@ html body .stock.in-stock {
 html body .product .stock.out-of-stock {
     color: var( --color-danger, #e2401c ); /* Red */
 }
+
+/* -- [ CART PAGE ] -- */
+html body.woocommerce-cart a.remove:hover:before {
+    color: var( --color-danger, #e2401c) ;
+}
 /* -- [ Checkout Page ] -- */
 
 /* -- hiding items to streamline checkout -- */
@@ -69,3 +103,347 @@ html body.woocommerce-checkout .footer-widgets {
 
 /* -- Account Page -- */
 html body.woocommerce-account { }
+
+
+/* -- HEADER -- */
+header.aseir-custom-header {
+    margin: 0;
+    padding: 0;
+}
+header.aseir-custom-header ul {
+    margin: 0;
+    padding: 0;
+}
+/* -- Mobile Header -- */
+section.aseir-header_section {
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+section.aseir-header_section h1.aseir-header-logo_h1 {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+section.aseir-header_section h1 a.aseir-header-logo_link-icon {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+section.aseir-header_section h1 svg.aseir-logo-icon {
+    height: 42px;
+}
+section.aseir-header_section h1 a.aseir-header-logo_link-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section.aseir-header_section h1 svg.aseir-logo-text {
+    height: 24px;
+    width: 200px;
+}
+@media (max-width:350px) {
+    section.aseir-header_section h1 svg.aseir-logo-text {
+        width: 150px;
+    }
+}
+section.aseir-header_section button#aseir-nav-toggle {
+    margin-left: auto;
+}
+
+/*-- Mobile Nav -- */
+#aseir-nav-toggle:not(.open) ~ nav#aseir-header-nav {
+    left: 100vw;
+    -moz-box-shadow:    0 0 0 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,.1);
+    box-shadow:         0 0 0 0 rgba(0,0,0,.1);
+}
+#aseir-nav-toggle:not(.open) ~ .overlay {
+    left: 100vw;
+    transition: left .5s ease;
+    background: rgba(0,0,0,0);
+    opacity:0;
+}
+.overlay {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+nav#aseir-header-nav {
+    display: block;
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    left: 56px;
+    min-height: calc(100vh - 180px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: left .5s ease, box-shadow .5s ease;
+    background: darkgray;
+    z-index: 10;
+    -moz-box-shadow:    -5px 5px 11px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: -5px 5px 11px 5px rgba(0,0,0,.5);
+    box-shadow:         -5px 5px 11px 5px rgba(0,0,0,.5);
+}
+nav#aseir-header-nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+nav#aseir-header-nav a,
+nav#aseir-header-nav a:visited {
+    height: 56px;
+    display: flex;
+    padding-left: 48px;
+    font-size: 21px;
+    color: #ffffff;
+    align-items: center;
+    text-decoration: none;
+}
+nav#aseir-header-nav a:hover,
+nav#aseir-header-nav a:focus,
+nav#aseir-header-nav a:active {
+    color: #4b566b;
+}
+
+/* -- HEADER 768PX AND UP -- */
+@media (min-width:768px) {
+    /* DESkTOP */
+    section.aseir-header_section {
+        height: auto;
+    }
+    section.aseir-header_section h1.aseir-header-logo_h1 {
+        display: flex;
+        width: 100%;
+        margin: 16px 0;
+    }
+    section.aseir-header_section h1 a {}
+    section.aseir-header_section svg#aseir-logo-icon {
+        height: 56px;
+    }
+    section.aseir-header_section h1 a.aseir-header-logo_link-text {
+        margin: 10px 0 0 10px;
+        transform: translate(0,0);
+        position: initial;
+    }
+    section.aseir-header_section svg#aseir-logo-text {
+        height: 20px;
+        width: auto;
+    }
+
+    /* -- Mobile Menu -- */
+    nav#aseir-header-nav ul.aseir-header-nav_menu-mobile {
+        display: none;
+    }
+    section.aseir-header_section button#aseir-nav-toggle {
+        display: none;
+    }
+    .overlay { display: none; }
+    /* -- Desktop Nav -- */
+    nav#aseir-header-nav {
+        display: inline-flex;
+        opacity: 1 !important;
+        left: 0 !important;
+        top: 0 !important;
+        position: relative;
+        width: auto;
+        overflow: visible;
+        overflow-y: visible;
+        min-height: auto;
+        background: transparent;
+    }
+    nav#aseir-header-nav:before {
+        content:none;
+    }
+    nav#aseir-header-nav ul.aseir-header-nav_menu {
+        display: inline-flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin-left: -24px;
+    }
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a {
+        display: flex;
+        height: 56px;
+        font-size: 16px;
+        padding: 0 24px;
+        color: #fff;
+        text-decoration: none;
+        align-items: center;
+    }
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a:hover {
+        opacity: .5;
+    }
+
+    /* -- Cart -- */
+    #site-header-cart .widget_shopping_cart,
+    #site-header-cart.focus .widget_shopping_cart {
+        left: 0;
+        display: block;
+    }
+    .product_list_widget { height: auto !important; }
+
+    ul#site-header-cart {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        width: 350px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul#site-header-cart li {
+        width: 100%;
+    }
+    li.site-header-cart_li-first {
+        min-width: 100%;
+        height: 56px;
+        display: flex;
+        align-items: center;
+    }
+    ul#site-header-cart a.cart-contents {
+        text-align: right;
+        width: 160px;
+        margin-left: auto;
+    }
+    ul#site-header-cart a.cart-contents span {
+        margin-right: 12px;
+    }
+
+    #site-header-cart div.widget_shopping_cart {
+        background: #fcfcfc;
+        color: #7e7e7e;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    #site-header-cart div.widget_shopping_cart a {
+        color: #7e7e7e;
+    }
+    #site-header-cart div.widget_shopping_cart a:hover {
+        color: #5e5e5e;
+    }
+    #site-header-cart div.widget_shopping_cart span.quantity {
+        color: #43454b;
+    }
+    #site-header-cart div.widget_shopping_cart a.remove_from_cart_button {
+        left: -5px;
+        width: 14px;
+        margin-right: 8px;
+    }
+    #site-header-cart div.widget_shopping_cart a.remove_from_cart_button:hover:before {
+        color: var( --color-danger, #e2401c) ;
+    }
+    #site-header-cart div.widget_shopping_cart p.total,
+    #site-header-cart div.widget_shopping_cart p.buttons {
+        background: #fcfcfc;
+        color: #7e7e7e;
+    }
+    #site-header-cart div.widget_shopping_cart p.buttons a {
+        color: #fff;
+    }
+}
+
+/* Button Toggle */
+#aseir-nav-toggle {
+    border: 0;
+    background: transparent;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+#aseir-nav-toggle span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #FFF;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+#aseir-nav-toggle span:nth-child(even) {
+    left: 50%;
+}
+#aseir-nav-toggle span:nth-child(odd) {
+    left: 0px;
+}
+#aseir-nav-toggle span:nth-child(1),
+#aseir-nav-toggle span:nth-child(2) {
+    top: 20%;
+}
+#aseir-nav-toggle span:nth-child(3),
+#aseir-nav-toggle span:nth-child(4) {
+    top: calc(50% - 1px);
+}
+#aseir-nav-toggle span:nth-child(5),
+#aseir-nav-toggle span:nth-child(6) {
+    bottom: 20%;
+}
+#aseir-nav-toggle.open span:nth-child(1),
+#aseir-nav-toggle.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#aseir-nav-toggle.open span:nth-child(2),
+#aseir-nav-toggle.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#aseir-nav-toggle.open span:nth-child(1),
+#aseir-nav-toggle.open span:nth-child(2) {
+    top: 30%;
+}
+#aseir-nav-toggle.open span:nth-child(1) {
+    left: 4px;
+}
+#aseir-nav-toggle.open span:nth-child(2) {
+    left: calc(50% - 4px);
+}
+#aseir-nav-toggle.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+}
+#aseir-nav-toggle.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+}
+#aseir-nav-toggle.open span:nth-child(5),
+#aseir-nav-toggle.open span:nth-child(6) {
+    bottom: calc(30% + 1px) ;
+}
+#aseir-nav-toggle.open span:nth-child(5) {
+    left: 4px;
+}
+#aseir-nav-toggle.open span:nth-child(6) {
+    left: calc(50% - 4px);
+}
