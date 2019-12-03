@@ -1,0 +1,64 @@
+/* -- Home Page -- */
+body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+}
+body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products:before {
+    content: none;
+    display: none;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product {
+    -webkit-box-flex: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product .wc-block-grid__product-add-to-cart {
+    width: 100%;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 48px;
+    font-size: 18px;
+}
+/* -- Home Page // Small devices (landscape phones, 576px and up) */
+@media (min-width:576px) {
+    body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    }
+    body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {
+        max-width: 230px;
+    }
+}
+/* -- Home Page // Medium devices (tablets, 768px and up) */
+@media (min-width:768px) {
+    body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(31%, 1fr));
+    }
+    body.home .wc-block-grid.has-4-columns li.wc-block-grid__product { }
+    body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {
+        max-width: 200px;
+    }
+}
+/* -- Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+    }
+}
