@@ -22,6 +22,14 @@ function my_theme_enqueue_styles() {
 // -- END [ Custom Header ] -- Remove WooCommerce
 
 
+// -- [ Remove Breadcrumbs ] -- Remove breadcrumbs for Storefront theme
+    add_action( 'init', 'wc_remove_storefront_breadcrumbs');
+    function wc_remove_storefront_breadcrumbs() {
+        remove_action( 'storefront_before_content', 'woocommerce_breadcrumb', 10 );
+    }
+// -- END [ Remove Breadcrumbs ] -- Remove breadcrumbs for Storefront theme
+
+
 // -- [ Custom Footer ] -- Remove WooCommerce
     add_action( 'init', 'custom_remove_footer_credit', 10 );
     function custom_remove_footer_credit () {
@@ -36,6 +44,7 @@ function my_theme_enqueue_styles() {
         <?php
     }
 // -- END [ Custom Footer ] -- Remove WooCommerce
+
 
 // -- [ Display Amount Saved ] -- Add save percent next to sale item prices.
     function ts_you_save() {
@@ -58,6 +67,7 @@ function my_theme_enqueue_styles() {
     add_action( 'woocommerce_single_product_summary', 'ts_you_save', 11 );
 // -- END [ Display Amount Saved ] -- Add save percent next to sale item prices.
 
+
 // -- [ Remove Phone Number From Checkout ] -- //
     add_filter( 'woocommerce_checkout_fields' , 'asier_custom_checkout_fields', 20);
     function asier_custom_checkout_fields( $fields ){
@@ -67,6 +77,7 @@ function my_theme_enqueue_styles() {
         return $fields;
     }
 // -- END [ Remove Phone Number From Checkout ] -- //
+
 
 // -- [ Add: "How did you hear about us" field to Checkout page ] -- //
     add_filter( 'woocommerce_checkout_fields', 'aseir_custom_how_did_you_hear_about_us', 30 );
@@ -87,3 +98,4 @@ function my_theme_enqueue_styles() {
         );
         return $fields;
     }
+// -- END [ Add: "How did you hear about us" field to Checkout page ] -- //
