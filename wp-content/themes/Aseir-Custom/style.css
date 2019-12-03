@@ -5,7 +5,7 @@ Author:       Travis E Mikolay
 Author URI:   https://github.com/TheTravisM/
 Template:     storefront
 Description:  Designed and developed by Travis Mikolay, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more.
-Version:      1.11.14
+Version:      1.12.03
 License:      GNU General Public License v2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  storefrontchild
@@ -42,72 +42,14 @@ Images License: GNU General Public License v2 or later
     --color-warning: #ffc107 /* yellow */
 }
 
-/* -- Header --
-header.aseir-custom-header {
-    margin: 0 auto;
-    padding: 0;
+/* -- Body -- */
+html body {
+    font-weight: 300;
 }
-h1.aseir-header_logo {
-    margin: 0;
-    padding: 0;
-}
-svg#aseir-logo-lg {
-    display: none;
-    height: 100px;
-}
-svg#aseir-logo-sm {
-    height: 42px;
-}
-@media (min-width: 768px) {
-    svg#aseir-logo-lg {
-        display: block;
-    }
-    svg#aseir-logo-sm {
-        display: none;
-    }
-}
--- */
-
-/* -- Site Header Cart -- */
-#site-header-cart {
-
-}
-
-/* -- [ Single Product Page ] -- */
-
-.you-save {
-    color: var( --color-danger, #e2401c ); /* Red */
-    font-size:24px;
-}
-
-/* -- [ Single Page Stock  ] -- */
-html body .stock.in-stock {
-    color: var( --color-success, #28a745 ) ; /* green */
-}
-html body .product .stock.out-of-stock {
-    color: var( --color-danger, #e2401c ); /* Red */
-}
-
-/* -- [ CART PAGE ] -- */
-html body.woocommerce-cart a.remove:hover:before {
-    color: var( --color-danger, #e2401c) ;
-}
-/* -- [ Checkout Page ] -- */
-
-/* -- hiding items to streamline checkout -- */
-html body.woocommerce-checkout .storefront-primary-navigation,
-html body.woocommerce-checkout .site-search,
-html body.woocommerce-checkout .footer-widgets {
-    display: none;
-}
-
-/* -- Account Page -- */
-html body.woocommerce-account { }
-
-
 /* -- HEADER -- */
 header.aseir-custom-header {
     margin: 0;
+    margin-bottom: 4.235801032em;
     padding: 0;
 }
 header.aseir-custom-header ul {
@@ -139,19 +81,18 @@ section.aseir-header_section h1 svg.aseir-logo-icon {
     height: 42px;
 }
 section.aseir-header_section h1 a.aseir-header-logo_link-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 section.aseir-header_section h1 svg.aseir-logo-text {
-    height: 24px;
-    width: 200px;
-}
-@media (max-width:350px) {
-    section.aseir-header_section h1 svg.aseir-logo-text {
-        width: 150px;
-    }
+    height: 36px;
+    max-width: calc(100vw - 200px);
+    width: 265px;
 }
 section.aseir-header_section button#aseir-nav-toggle {
     margin-left: auto;
@@ -187,11 +128,11 @@ nav#aseir-header-nav {
     top: 65px;
     width: 100%;
     left: 56px;
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 134px);
     overflow-x: hidden;
     overflow-y: scroll;
     transition: left .5s ease, box-shadow .5s ease;
-    background: darkgray;
+    background: #16161d;
     z-index: 10;
     -moz-box-shadow:    -5px 5px 11px 5px rgba(0,0,0,.5);
     -webkit-box-shadow: -5px 5px 11px 5px rgba(0,0,0,.5);
@@ -216,6 +157,7 @@ nav#aseir-header-nav a:hover,
 nav#aseir-header-nav a:focus,
 nav#aseir-header-nav a:active {
     color: #4b566b;
+    background: #16161d;
 }
 
 /* -- HEADER 768PX AND UP -- */
@@ -287,12 +229,12 @@ nav#aseir-header-nav a:active {
     }
 
     /* -- Cart -- */
-    #site-header-cart .widget_shopping_cart,
-    #site-header-cart.focus .widget_shopping_cart {
-        left: 0;
-        display: block;
-    }
-    .product_list_widget { height: auto !important; }
+    /*#site-header-cart .widget_shopping_cart,*/
+    /*#site-header-cart.focus .widget_shopping_cart {*/
+    /*    left: 0;*/
+    /*    display: block;*/
+    /*}*/
+    /*.product_list_widget { height: auto !important; }*/
 
     ul#site-header-cart {
         display: flex;
@@ -313,6 +255,7 @@ nav#aseir-header-nav a:active {
         align-items: center;
     }
     ul#site-header-cart a.cart-contents {
+        color: #fff;
         text-align: right;
         width: 160px;
         margin-left: auto;
@@ -341,6 +284,7 @@ nav#aseir-header-nav a:active {
         margin-right: 8px;
     }
     #site-header-cart div.widget_shopping_cart a.remove_from_cart_button:hover:before {
+        color: #e2401c;
         color: var( --color-danger, #e2401c) ;
     }
     #site-header-cart div.widget_shopping_cart p.total,
@@ -447,3 +391,182 @@ nav#aseir-header-nav a:active {
 #aseir-nav-toggle.open span:nth-child(6) {
     left: calc(50% - 4px);
 }
+
+/* -- Site Header Cart -- */
+#site-header-cart {
+
+}
+
+/* -- [ Home Page ] -- */
+body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+}
+body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products:before {
+    content: none;
+    display: none;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product {
+    -webkit-box-flex: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.wc-block-grid__product-link {
+    margin-bottom: auto;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product .wc-block-grid__product-add-to-cart {
+    width: 100%;
+}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 320px;
+    height: 48px;
+    font-size: 18px;
+}
+/* -- Home Page // Small devices (landscape phones, 576px and up) */
+@media (min-width:576px) {
+    body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    }
+    body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {
+        max-width: 230px;
+    }
+}
+/* -- Home Page // Medium devices (tablets, 768px and up) */
+@media (min-width:768px) {
+    body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(31%, 1fr));
+    }
+    body.home .wc-block-grid.has-4-columns li.wc-block-grid__product { }
+    body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {
+        max-width: 200px;
+    }
+}
+/* -- Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+    }
+}
+
+/* -- [ Shop Page ] -- */
+body.post-type-archive-product ul.products.columns-3 {
+    display: grid;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2.617924em;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+}
+body.post-type-archive-product ul.products.columns-3:before {
+    content: none;
+    display: none;
+}
+body.post-type-archive-product ul.products.columns-3 li.product {
+    -webkit-box-flex: 1;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+body.post-type-archive-product ul.products.columns-3 li.product a.woocommerce-LoopProduct-link {
+    margin-bottom: auto;
+}
+body.post-type-archive-product ul.products.columns-3 li.product a.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 320px;
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+}
+/* -- [ Shop Page // Small devices (landscape phones, 576px and up) */
+@media (min-width:576px) {
+    body.post-type-archive-product ul.products.columns-3 {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    }
+    body.post-type-archive-product ul.products.columns-3 li.wc-block-grid__product a.button {
+        max-width: 230px;
+    }
+}
+/* -- [ Shop Page // Medium devices (tablets, 768px and up) */
+@media (min-width:768px) {
+    body.post-type-archive-product ul.products.columns-3 {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    }
+    body.post-type-archive-product ul.products.columns-3 li.product {
+        width: 100%;
+    }
+    body.post-type-archive-product ul.products.columns-3 li.product a.button {
+        max-width: 200px;
+    }
+}
+/* -- [ Shop Page : Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body.post-type-archive-product ul.products.columns-3 {
+        grid-column-gap: 2%;
+        grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+    }
+}
+
+/* -- [ Single Product Page ] -- */
+
+/* -- [ Single Product Page ] -- */
+
+.you-save {
+    color: #e2401c;
+    color: var( --color-danger, #e2401c ); /* Red */
+    font-size:24px;
+}
+
+/* -- [ Single Page Stock  ] -- */
+html body .stock.in-stock {
+    color: #28a745;
+    color: var( --color-success, #28a745 ) ; /* green */
+}
+html body .product .stock.out-of-stock {
+    color: #e2401c;
+    color: var( --color-danger, #e2401c ); /* Red */
+}
+
+/* -- [ CART PAGE ] -- */
+html body.woocommerce-cart a.remove:hover:before {
+    color: #e2401c;
+    color: var( --color-danger, #e2401c) ;
+}
+/* -- [ Checkout Page ] -- */
+
+/* -- hiding items to streamline checkout -- */
+html body.woocommerce-checkout .storefront-primary-navigation,
+html body.woocommerce-checkout .site-search,
+html body.woocommerce-checkout .footer-widgets {
+    display: none;
+}
+
+/* -- [ Account Page ] -- */
+html body.woocommerce-account { }
