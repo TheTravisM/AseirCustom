@@ -26,8 +26,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+        <!-- DNS : Prefetch - Preconnect -->
+        <link href="https://www.aseircustom.com" rel="dns-prefetch">
+        <link href="https://www.aseircustom.com" rel="preconnect" crossorigin="">
+        <link href="https://www.google-analytics.com" rel="dns-prefetch">
+        <link href="https://www.google-analytics.com" rel="preconnect" crossorigin="">
+        <link href="https://www.googletagmanager.com" rel="dns-prefetch">
+        <link href="https://www.googletagmanager.com" rel="preconnect" crossorigin="">
+        <link href="https://ajax.googleapis.com" rel="dns-prefetch">
+        <link href="https://ajax.googleapis.com" rel="preconnect" crossorigin="">
+        <link href="https://fonts.googleapis.com" rel="dns-prefetch">
+        <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin="">
+        <link href="https://fonts.gstatic.com" rel="dns-prefetch">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+        <link href="https://pixel.wp.com" rel="dns-prefetch">
+        <link href="https://pixel.wp.com" rel="preconnect" crossorigin="">
+        <link href="https://c0.wp.com" rel="dns-prefetch">
+        <link href="https://c0.wp.com" rel="preconnect" crossorigin="">
+        <link href="https://i0.wp.com" rel="dns-prefetch">
+        <link href="https://i0.wp.com" rel="preconnect" crossorigin="">
+        <link href="https://s0.wp.com" rel="dns-prefetch">
+        <link href="https://s0.wp.com" rel="preconnect" crossorigin="">
+        <link href="https://s1.wp.com" rel="dns-prefetch">
+        <link href="https://s1.wp.com" rel="preconnect" crossorigin="">
+        <link href="https://widgets.wp.com" rel="dns-prefetch">
+        <link href="https://widgets.wp.com" rel="preconnect" crossorigin="">
+        <link href="https://secure.gravatar.com" rel="dns-prefetch">
+        <link href="https://secure.gravatar.com" rel="preconnect" crossorigin="">
+        <!-- CSS Prefetch -->
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-includes/css/dist/block-library/style.min.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/contact-widgets/assets/css/font-awesome.min.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/storefront/style.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/storefront/assets/css/base/icons.css">
+        <link as="style" rel="prefetch" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/jetpack/css/jetpack.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.4.5">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/Aseir-Custom/style.css">
+        <!-- Preload Fonts -->
+        <link rel="preload" as="font" type="font/woff2" importance="high" href="https://fonts.googleapis.com/css?family=Google+Sans:300,300i,400,400i,500,500i,700,700i%7CRoboto:300,300i,400,400i,500,500i,700,700i&display=swap" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="high" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext&display=swap" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="low" href="https://aseircustom.com/wp-content/themes/storefront/assets/fonts/fa-solid-900.woff" crossorigin="">
+        <!-- Prefetch Images -->
+        <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/06/ghk-peptide-white-bg.jpg">
+        <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/06/ghk-peptide-white-bg-closed.jpg">
+        <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/09/ghk-peptide-black-bg-open.jpg">
+        <link as="image" rel="prefetch" href="https://i2.wp.com/aseircustom.com/wp-content/uploads/2019/09/ghk-peptide-black-bg-closed.jpg">
+        <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/11/ghk-copper-peptide-powder.jpg">
+        <link as="image" rel="prefetch" href="https://i2.wp.com/aseircustom.com/wp-content/uploads/2019/06/pexels-photo-286951.jpeg">
+        <!-- END : Prefetch Images -->
 
         <?php wp_head(); ?>
+        <!-test->
     </head>
 
 <body id="aseir-custom-body" <?php body_class('aseir-custom-body'); ?>>
@@ -45,12 +94,18 @@
             <!-- Logo -->
             <h1 class="aseir-header-logo_h1">
                 <a class="aseir-header-logo_link-icon" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                    <svg version="1.1" id="aseir-logo-icon" class="aseir-logo-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 357.7 248.8" style="enable-background:new 0 0 357.7 248.8;" xml:space="preserve">
+<!--                    <svg version="1.1" id="aseir-logo-icon" class="aseir-logo-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 357.7 248.8" style="enable-background:new 0 0 357.7 248.8;" xml:space="preserve">
                         <style type="text/css">
                             svg#aseir-logo-icon .st0{fill:#D4AF37;}
                             svg#aseir-logo-icon .st1{fill:none;stroke:#D4AF37;stroke-width:2;stroke-miterlimit:10;}
                         </style>
                         <polygon class="st0" points="325.1,248.8 32.6,248.8 113.9,108.1 121.4,108.1 43.8,242.3 313.8,242.3 236.2,108.1 243.8,108.1 "></polygon><g><polygon class="st0" points="357.7,97.9 313,98.4 268.2,98.7 178.8,98.9 89.4,98.7 44.7,98.4 0,97.9 44.7,97.4 89.4,97.2 178.8,96.9 268.2,97.2 313,97.4 "></polygon></g><polyline class="st1" points="123.4,97.9 178.8,2 234.2,97.9 "></polyline>
+                    </svg> -->
+                    <svg version="1.1" id="aseir-logo-icon" class="aseir-logo-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 357.7 248.8" style="enable-background:new 0 0 357.7 248.8;" xml:space="preserve">
+                        <style type="text/css">svg#aseir-logo-icon polygon { fill:#D4AF37; }</style>
+                        <polygon id="Base" class="st0" points="325.1,248.8 32.6,248.8 113.9,108.1 121.4,108.1 43.8,242.3 313.8,242.3 236.2,108.1 243.8,108.1 "/>
+                        <polygon id="Line" class="st0" points="357.7,97.5 178.8,100.8 0,97.5 178.8,94.3 "/>
+                        <polygon id="Top" class="st0" points="229.1,97.8 178.4,10 127.7,97.8 120.2,97.8 178.4,-3 236.6,97.8 "/>
                     </svg>
                 </a>
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="aseir-header-logo_link-text" rel="home">
