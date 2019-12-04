@@ -1,11 +1,11 @@
 /*
-Theme Name:   Aseir Custom
+Theme Name:   Aseir Custom v3
 Theme URI:    https://github.com/TheTravisM/
 Author:       Travis E Mikolay
 Author URI:   https://github.com/TheTravisM/
 Template:     storefront
 Description:  Designed and developed by Travis Mikolay, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more.
-Version:      1.12.03
+Version:      1.12.04
 License:      GNU General Public License v2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  storefrontchild
@@ -46,11 +46,51 @@ Images License: GNU General Public License v2 or later
 html body {
     font-weight: 300;
 }
+html body #content a:not(.button),
+html body #content a:not(.button):visited {
+    color: var( --color-dark, #16161d );
+}
+html body #content a:not(.button):hover,
+html body #content a:not(.button):focus,
+html body #content a:not(.button):active {
+    color: #000;
+}
+html body #content a.button,
+html body #content button,
+html body #content input[type="button"] {
+    background-color: var( --color-dark, #16161d );
+    border: 1px solid var( --color-dark, #16161d );
+    color: #EEE;
+    font-weight: 300 !important;
+    text-shadow: 0 0 1px rgba(0,0,0,0.01);
+    text-transform: uppercase;
+}
+html body #content a.button:hover,
+html body #content button:hover,
+html body #content input[type="button"]:hover {
+    border: 1px solid var( --color-dark, #16161d );
+    background-color: #656565;
+    color: #FFF;
+    text-shadow: 0 0 3px rgba(0,0,0,0.75);
+}
+
+html body #content a.added_to_cart {
+    font-weight: 300 !important;
+    border: 1px solid var( --color-dark, #16161d );
+    color: var( --color-dark, #16161d );
+    background-color: #FFF;
+    text-transform: uppercase;
+}
+html body #content a.added_to_cart:hover {
+    border: 1px solid var( --color-dark, #16161d );
+}
+
 /* -- HEADER -- */
 header.aseir-custom-header {
     margin: 0;
     margin-bottom: 4.235801032em;
     padding: 0;
+    background-color: var( --color-dark, #16161d );
 }
 header.aseir-custom-header ul {
     margin: 0;
@@ -108,13 +148,13 @@ section.aseir-header_section button#aseir-nav-toggle {
 #aseir-nav-toggle:not(.open) ~ .overlay {
     left: 100vw;
     transition: left .5s ease;
-    background: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
     opacity:0;
 }
 .overlay {
     min-height: 100vh;
     min-width: 100vw;
-    background: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.5);
     position: fixed;
     top: 0;
     z-index: -1;
@@ -132,7 +172,7 @@ nav#aseir-header-nav {
     overflow-x: hidden;
     overflow-y: scroll;
     transition: left .5s ease, box-shadow .5s ease;
-    background: #16161d;
+    background-color: #16161d;
     z-index: 10;
     -moz-box-shadow:    -5px 5px 11px 5px rgba(0,0,0,.5);
     -webkit-box-shadow: -5px 5px 11px 5px rgba(0,0,0,.5);
@@ -149,15 +189,16 @@ nav#aseir-header-nav a:visited {
     display: flex;
     padding-left: 48px;
     font-size: 21px;
-    color: #ffffff;
+    color: #999;
     align-items: center;
     text-decoration: none;
+    text-transform: uppercase;
 }
 nav#aseir-header-nav a:hover,
 nav#aseir-header-nav a:focus,
 nav#aseir-header-nav a:active {
-    color: #4b566b;
-    background: #16161d;
+    color: #FFF;
+    background-color: #16161d;
 }
 
 /* -- HEADER 768PX AND UP -- */
@@ -204,7 +245,7 @@ nav#aseir-header-nav a:active {
         overflow: visible;
         overflow-y: visible;
         min-height: auto;
-        background: transparent;
+        background-color: transparent;
     }
     nav#aseir-header-nav:before {
         content:none;
@@ -215,27 +256,28 @@ nav#aseir-header-nav a:active {
         list-style-type: none;
         margin-left: -24px;
     }
-    nav#aseir-header-nav ul.aseir-header-nav_menu li a {
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a,
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a:visited {
+        align-items: center;
+        color: #BBB;
         display: flex;
         height: 56px;
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 24px;
-        color: #fff;
         text-decoration: none;
-        align-items: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 1px rgba(0,0,0,0.01);
     }
-    nav#aseir-header-nav ul.aseir-header-nav_menu li a:hover {
-        opacity: .5;
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a:hover,
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a:focus,
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a:active {
+        color: #fff;
+        text-shadow: 0 0 3px rgba(0,0,0,0.75);
     }
-
+    nav#aseir-header-nav ul.aseir-header-nav_menu li a:focus {
+        outline: #999;
+    }
     /* -- Cart -- */
-    /*#site-header-cart .widget_shopping_cart,*/
-    /*#site-header-cart.focus .widget_shopping_cart {*/
-    /*    left: 0;*/
-    /*    display: block;*/
-    /*}*/
-    /*.product_list_widget { height: auto !important; }*/
-
     ul#site-header-cart {
         display: flex;
         align-items: center;
@@ -255,7 +297,7 @@ nav#aseir-header-nav a:active {
         align-items: center;
     }
     ul#site-header-cart a.cart-contents {
-        color: #fff;
+        color: #EEE;
         text-align: right;
         width: 160px;
         margin-left: auto;
@@ -265,14 +307,14 @@ nav#aseir-header-nav a:active {
     }
 
     #site-header-cart div.widget_shopping_cart {
-        background: #fcfcfc;
+        background-color: #fcfcfc;
         color: #7e7e7e;
         border: 1px solid rgba(0, 0, 0, 0.05);
     }
-    #site-header-cart div.widget_shopping_cart a {
+    #site-header-cart div.widget_shopping_cart a:not(.button) {
         color: #7e7e7e;
     }
-    #site-header-cart div.widget_shopping_cart a:hover {
+    #site-header-cart div.widget_shopping_cart a:not(.button):hover {
         color: #5e5e5e;
     }
     #site-header-cart div.widget_shopping_cart span.quantity {
@@ -289,18 +331,18 @@ nav#aseir-header-nav a:active {
     }
     #site-header-cart div.widget_shopping_cart p.total,
     #site-header-cart div.widget_shopping_cart p.buttons {
-        background: #fcfcfc;
+        background-color: #fcfcfc;
         color: #7e7e7e;
     }
-    #site-header-cart div.widget_shopping_cart p.buttons a {
-        color: #fff;
-    }
+    /*#site-header-cart div.widget_shopping_cart p.buttons a {*/
+    /*    color: #fff;*/
+    /*}*/
 }
 
 /* Button Toggle */
 #aseir-nav-toggle {
     border: 0;
-    background: transparent;
+    background-color: transparent;
     overflow: hidden;
     width: 48px;
     height: 48px;
@@ -320,7 +362,7 @@ nav#aseir-header-nav a:active {
     position: absolute;
     height: 2px;
     width: 50%;
-    background: #FFF;
+    background-color: #FFF;
     opacity: 1;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -393,8 +435,46 @@ nav#aseir-header-nav a:active {
 }
 
 /* -- Site Header Cart -- */
-#site-header-cart {
+html body .widget_shopping_cart_content a.button:link {
+    font-weight: 300 !important;
+    border: 1px solid var( --color-dark, #16161d );
+    border-color: var( --color-dark, #16161d );
+    color: var( --color-dark, #16161d );
+    background-color: #fff;
+    text-transform: uppercase;
+}
+html body .widget_shopping_cart_content a.button:link:hover {
+    border: 1px solid var( --color-dark, #16161d );
+    border-color: var( --color-dark, #16161d );
+}
+html body .widget_shopping_cart_content a.button.checkout {
+    background-color: var( --color-dark, #16161d );
+    border: 1px solid var( --color-dark, #16161d );
+    color: #EEE;
+    font-weight: 300 !important;
+    text-shadow: 0 0 1px rgba(0,0,0,0.01);
+}
+html body .widget_shopping_cart_content a.button.checkout:hover {
+    border: 1px solid var( --color-dark, #16161d );
+    background-color: #656565;
+    color: #FFF;
+    text-shadow: 0 0 3px rgba(0,0,0,0.75);
+}
 
+/* -- Buttons -- */
+html body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
+    border: 1px solid var( --color-dark, #16161d );
+    background-color: var( --color-dark, #16161d );
+    color: #EEE;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,0.01);
+}
+html body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover {
+    border: 1px solid var( --color-dark, #16161d );
+    background-color: #656565;
+    color: #FFF;
+    text-shadow: 0 0 3px rgba(0,0,0,0.75);
 }
 
 /* -- [ Home Page ] -- */
@@ -436,6 +516,23 @@ body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_b
     height: 48px;
     font-size: 18px;
 }
+
+html body #content .wc-block-featured-product__link a.wp-block-button__link {
+    background-color: var(--color-ac-blue, #0058de);
+    color: #FFF;
+    font-weight: 300 !important;
+    min-width: 200px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,0.01);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.01);
+}
+html body #content .wc-block-featured-product__link a.wp-block-button__link:hover {
+    background-color: var(--color-ac-blue-dark, #0030aa);
+    color: #FFF;
+    text-shadow: 0 0 3px rgba(0,0,0,0.75);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.75);
+}
+
 /* -- Home Page // Small devices (landscape phones, 576px and up) */
 @media (min-width:576px) {
     body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {
@@ -536,7 +633,10 @@ body.post-type-archive-product ul.products.columns-3 li.product a.button {
 
 /* -- [ Single Product Page ] -- */
 
-/* -- [ Single Product Page ] -- */
+/* -- Remove Date On Posts --*/
+span.posted-on {
+    display: none;
+}
 
 .you-save {
     color: #e2401c;
@@ -570,3 +670,33 @@ html body.woocommerce-checkout .footer-widgets {
 
 /* -- [ Account Page ] -- */
 html body.woocommerce-account { }
+html body.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+    text-transform: uppercase;
+}
+/* -- [ Footer ] -- */
+footer.site-footer {
+    background-color: var( --color-dark, #16161d );
+    color: #999;
+}
+footer.site-footer a:link {
+    color: #999;
+}
+footer.site-footer a:link:hover {
+    color: #FFF;
+    text-shadow: 0 0 3px var( --color-dark, #16161d );
+}
+footer.site-footer .site-info {
+    color: #999;
+}
+
+/* -- [ Mobile Footer Bar ] -- */
+footer.site-footer .storefront-handheld-footer-bar {
+    border-top: 1px solid #FFF;
+}
+footer.site-footer .storefront-handheld-footer-bar li a:not(.button) {
+    color: #FFF;
+    background-color: var( --color-dark, #16161d );
+}
+footer.site-footer .storefront-handheld-footer-bar ul li.cart .count {
+    background-color: var( --color-dark, #16161d );
+}

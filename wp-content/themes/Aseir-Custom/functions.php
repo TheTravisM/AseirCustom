@@ -99,3 +99,17 @@ function my_theme_enqueue_styles() {
         return $fields;
     }
 // -- END [ Add: "How did you hear about us" field to Checkout page ] -- //
+
+// -- [ Add Links To Specific pages ] -- //
+//-- Shop Page -- //
+// if( is_page( 331 ) ) {
+// wp_enqueue_script('shop-css', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',false);
+// }
+
+function load_assets() {
+	if ( is_page(array( 331, 'Shop', 'Shop Page' )) ) {
+		wp_enqueue_style('QQQ','/wp-content/themes/Aseir-Custom/assets/css/shop.css', false );
+	}
+	wp_enqueue_style('shop-css', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',false);
+}
+add_action('wp_enqueue_scripts', 'load_assets');

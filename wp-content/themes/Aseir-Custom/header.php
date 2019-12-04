@@ -26,6 +26,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0">
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
         <!-- DNS : Prefetch - Preconnect -->
         <link href="https://www.aseircustom.com" rel="dns-prefetch">
         <link href="https://www.aseircustom.com" rel="preconnect" crossorigin="">
@@ -53,15 +54,6 @@
         <link href="https://widgets.wp.com" rel="preconnect" crossorigin="">
         <link href="https://secure.gravatar.com" rel="dns-prefetch">
         <link href="https://secure.gravatar.com" rel="preconnect" crossorigin="">
-        <!-- CSS Prefetch -->
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-includes/css/dist/block-library/style.min.css">
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/contact-widgets/assets/css/font-awesome.min.css">
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/storefront/style.css">
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/storefront/assets/css/base/icons.css">
-        <link as="style" rel="prefetch" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext">
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/jetpack/css/jetpack.css">
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.4.5">
-        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/Aseir-Custom/style.css">
         <!-- Preload Fonts -->
         <link rel="preload" as="font" type="font/woff2" importance="high" href="https://fonts.googleapis.com/css?family=Google+Sans:300,300i,400,400i,500,500i,700,700i%7CRoboto:300,300i,400,400i,500,500i,700,700i&display=swap" crossorigin="">
         <link rel="preload" as="font" type="font/woff2" importance="high" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext&display=swap" crossorigin="">
@@ -73,10 +65,17 @@
         <link as="image" rel="prefetch" href="https://i2.wp.com/aseircustom.com/wp-content/uploads/2019/09/ghk-peptide-black-bg-closed.jpg">
         <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/11/ghk-copper-peptide-powder.jpg">
         <link as="image" rel="prefetch" href="https://i2.wp.com/aseircustom.com/wp-content/uploads/2019/06/pexels-photo-286951.jpeg">
-        <!-- END : Prefetch Images -->
+        <!-- CSS Prefetch -->
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-includes/css/dist/block-library/style.min.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/contact-widgets/assets/css/font-awesome.min.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/storefront/style.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/storefront/assets/css/base/icons.css">
+        <link as="style" rel="prefetch" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/jetpack/css/jetpack.css">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.4.5">
+        <link as="style" rel="prefetch" href="https://aseircustom.com/wp-content/themes/Aseir-Custom/style.css">
 
         <?php wp_head(); ?>
-        <!-test->
     </head>
 
 <body id="aseir-custom-body" <?php body_class('aseir-custom-body'); ?>>
@@ -136,6 +135,7 @@
                  aria-label="Primary Navigation"
                  aria-expanded="false">
                 <ul class="aseir-header-nav_menu">
+                    <!--
                     <li class="aseir-header-nav_li">
                         <a class="aseir-header-nav_link"
                            href="<?php echo esc_url( home_url( '/' ) ); ?>"
@@ -143,6 +143,7 @@
                             Home
                         </a>
                     </li>
+                    -->
                     <li class="aseir-header-nav_li">
                         <a class="aseir-header-nav_link"
                            href="<?php echo esc_url( home_url( '/' ) ); ?>shop"
@@ -150,6 +151,7 @@
                             Shop
                         </a>
                     </li>
+                    <!--
                     <li class="aseir-header-nav_li">
                         <a class="aseir-header-nav_link"
                            href="<?php echo esc_url( home_url( '/' ) ); ?>news"
@@ -157,6 +159,7 @@
                             News
                         </a>
                     </li>
+                    -->
                     <li class="aseir-header-nav_li">
                         <a class="aseir-header-nav_link"
                            href="<?php echo esc_url( home_url( '/' ) ); ?>faq"
