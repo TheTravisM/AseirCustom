@@ -1,0 +1,9 @@
+.test * {
+  color: blue !important;
+}
+
+html body * {
+  background: yellow;
+}
+
+/*# sourceMappingURL=test.css.map */

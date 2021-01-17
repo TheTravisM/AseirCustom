@@ -1,5 +1,6 @@
 .test {
-  a {
-    color: blue;
+  * {
+    color: blue !important;
   }
 }
+@import "test2";

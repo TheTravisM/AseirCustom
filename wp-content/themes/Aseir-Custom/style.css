@@ -42,57 +42,81 @@ Images License: GNU General Public License v2 or later
     --color-warning: #ffc107 /* yellow */
 }
 
-/* -- Body -- */
-html body {
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 300;
+    font-display: swap;
+    src:
+        local('Montserrat Light'),
+        local('Montserrat-Light'),
+        url("../Aseir-Custom/assets/fonts/Montserrat-Light.ttf") format("truetype"),
+        url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_vx3rCs.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-html body #content a:not(.button),
-html body #content a:not(.button):visited {
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:
+        local('Montserrat Regular'),
+        local('Montserrat-Regular'),
+        url("../Aseir-Custom/assets/fonts/Montserrat-Regular.ttf") format("truetype"),
+        url("http://localhost:8888/Aseir_Custom/wp-content/themes/Aseir-Custom/assets/fonts/Montserrat-Regular.ttf") format("truetype"),
+        url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* -- Body -- */
+html body#aseir-body {
+    font-weight: 300;
+    font-family: 'Montserrat', source sans pro,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+}
+html body#aseir-body #content a:not(.button),
+html body#aseir-body #content a:not(.button):visited {
     color: var( --color-dark, #16161d );
 }
-html body #content a:not(.button):hover,
-html body #content a:not(.button):focus,
-html body #content a:not(.button):active {
+html body#aseir-body #content a:not(.button):hover,
+html body#aseir-body #content a:not(.button):focus,
+html body#aseir-body #content a:not(.button):active {
     color: #000;
 }
-html body #content a.button,
-html body #content button,
-html body #content input[type="button"] {
+html body#aseir-body #content a.button,
+html body#aseir-body #content button,
+html body#aseir-body #content input[type="button"] {
     background-color: var( --color-dark, #16161d );
     border: 1px solid var( --color-dark, #16161d );
     color: #EEE;
     font-weight: 300 !important;
+    font-size: 13px;
     text-shadow: 0 0 1px rgba(0,0,0,0.01);
     text-transform: uppercase;
 }
-html body #content a.button:hover,
-html body #content button:hover,
-html body #content input[type="button"]:hover {
+html body#aseir-body #content a.button:hover,
+html body#aseir-body #content button:hover,
+html body#aseir-body #content input[type="button"]:hover {
     border: 1px solid var( --color-dark, #16161d );
     background-color: #656565;
     color: #FFF;
     text-shadow: 0 0 3px rgba(0,0,0,0.75);
 }
-
-html body #content a.added_to_cart {
-    font-weight: 300 !important;
-    border: 1px solid var( --color-dark, #16161d );
-    color: var( --color-dark, #16161d );
-    background-color: #FFF;
-    text-transform: uppercase;
+/* -- Animate Forward Arrow --*/
+.wc-forward::after {
+    transition: transform .3s ease;
 }
-html body #content a.added_to_cart:hover {
-    border: 1px solid var( --color-dark, #16161d );
+.wc-forward:hover::after {
+    -webkit-transform: translateX(4px);
+    transform: translateX(2px);
 }
-
 /* -- HEADER -- */
-header.aseir-custom-header {
+header.aseir-header {
     margin: 0;
     margin-bottom: 4.235801032em;
     padding: 0;
     background-color: var( --color-dark, #16161d );
 }
-header.aseir-custom-header ul {
+header.aseir-header ul {
     margin: 0;
     padding: 0;
 }
@@ -200,7 +224,6 @@ nav#aseir-header-nav a:active {
     color: #FFF;
     background-color: #16161d;
 }
-
 /* -- HEADER 768PX AND UP -- */
 @media (min-width:768px) {
     /* DESkTOP */
@@ -305,11 +328,13 @@ nav#aseir-header-nav a:active {
     ul#site-header-cart a.cart-contents span {
         margin-right: 12px;
     }
-
     #site-header-cart div.widget_shopping_cart {
         background-color: #fcfcfc;
         color: #7e7e7e;
         border: 1px solid rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+        -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
     }
     #site-header-cart div.widget_shopping_cart a:not(.button) {
         color: #7e7e7e;
@@ -434,27 +459,31 @@ nav#aseir-header-nav a:active {
     left: calc(50% - 4px);
 }
 
-/* -- Site Header Cart -- */
-html body .widget_shopping_cart_content a.button:link {
+/* -- Site Cart -- */
+html#aseir-html body#aseir-body header#aseir-header .widget_shopping_cart a.button.wc-forward:link[href$="/cart/"],
+html#aseir-html body#aseir-body #content .widget_shopping_cart a.button.wc-forward:link[href$="/cart/"] {
     font-weight: 300 !important;
     border: 1px solid var( --color-dark, #16161d );
     border-color: var( --color-dark, #16161d );
     color: var( --color-dark, #16161d );
     background-color: #fff;
     text-transform: uppercase;
+    text-shadow: none;
 }
-html body .widget_shopping_cart_content a.button:link:hover {
+html body#aseir-body .widget_shopping_cart a.button:link:hover {
     border: 1px solid var( --color-dark, #16161d );
     border-color: var( --color-dark, #16161d );
+    text-shadow: none;
 }
-html body .widget_shopping_cart_content a.button.checkout {
+html body#aseir-body .widget_shopping_cart a.button.checkout {
     background-color: var( --color-dark, #16161d );
     border: 1px solid var( --color-dark, #16161d );
     color: #EEE;
     font-weight: 300 !important;
     text-shadow: 0 0 1px rgba(0,0,0,0.01);
+    text-transform: uppercase;
 }
-html body .widget_shopping_cart_content a.button.checkout:hover {
+html body#aseir-body .widget_shopping_cart_content a.button.checkout:hover {
     border: 1px solid var( --color-dark, #16161d );
     background-color: #656565;
     color: #FFF;
@@ -462,7 +491,7 @@ html body .widget_shopping_cart_content a.button.checkout:hover {
 }
 
 /* -- Buttons -- */
-html body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
+html body#aseir-body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
     border: 1px solid var( --color-dark, #16161d );
     background-color: var( --color-dark, #16161d );
     color: #EEE;
@@ -470,7 +499,7 @@ html body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
     text-transform: uppercase;
     text-shadow: 0 0 1px rgba(0,0,0,0.01);
 }
-html body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover {
+html body#aseir-body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover {
     border: 1px solid var( --color-dark, #16161d );
     background-color: #656565;
     color: #FFF;
@@ -517,7 +546,7 @@ body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_b
     font-size: 18px;
 }
 
-html body #content .wc-block-featured-product__link a.wp-block-button__link {
+html body#aseir-body #content .wc-block-featured-product__link a.wp-block-button__link {
     background-color: var(--color-ac-blue, #0058de);
     color: #FFF;
     font-weight: 300 !important;
@@ -526,7 +555,7 @@ html body #content .wc-block-featured-product__link a.wp-block-button__link {
     text-shadow: 0 0 1px rgba(0,0,0,0.01);
     box-shadow: 0 0 1px 1px rgba(0,0,0,0.01);
 }
-html body #content .wc-block-featured-product__link a.wp-block-button__link:hover {
+html body#aseir-body #content .wc-block-featured-product__link a.wp-block-button__link:hover {
     background-color: var(--color-ac-blue-dark, #0030aa);
     color: #FFF;
     text-shadow: 0 0 3px rgba(0,0,0,0.75);
@@ -645,11 +674,11 @@ span.posted-on {
 }
 
 /* -- [ Single Page Stock  ] -- */
-html body .stock.in-stock {
+html body#aseir-body .stock.in-stock {
     color: #28a745;
     color: var( --color-success, #28a745 ) ; /* green */
 }
-html body .product .stock.out-of-stock {
+html body#aseir-body .product .stock.out-of-stock {
     color: #e2401c;
     color: var( --color-danger, #e2401c ); /* Red */
 }

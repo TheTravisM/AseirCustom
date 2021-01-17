@@ -12,6 +12,26 @@ function my_theme_enqueue_styles() {
     );
 }
 
+// -- [ ] -- //
+add_action( 'customize_register', 'exit_customize', 15 );
+function exit_customize( $wp_customize ) {
+
+//	$wp_customize->remove_control( 'fl-header-style');
+//
+//	$wp_customize->remove_section( 'fl-content-bg' );
+//	$wp_customize->remove_control('background_color');
+//
+//	$wp_customize->remove_section("colors");
+//	$wp_customize->remove_section("background_image");
+//	$wp_customize->remove_section( "buttons" );
+//	$wp_customize->remove_control( "buttons" );
+//
+//	// Works
+//	$wp_customize->remove_control("header_image");
+//	$wp_customize->remove_section( 'custom_css' );
+//	$wp_customize->remove_control( 'custom_css' );
+}
+
 // -- [ Custom Header ] -- Remove WooCommerce
     add_action( 'storefront_header', 'remove_product_search');
     function remove_product_search(){
@@ -21,6 +41,12 @@ function my_theme_enqueue_styles() {
     }
 // -- END [ Custom Header ] -- Remove WooCommerce
 
+// -- [ Remove Meta Info from from Shop Page ] -- //
+    add_action( 'woocommerce_single_product_summary', 'remove_product_meta');
+    function remove_product_meta() {
+	    remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+    }
+// -- END [ Remove Meta Info from from Shop Page ] -- //
 
 // -- [ Remove Breadcrumbs ] -- Remove breadcrumbs for Storefront theme
     add_action( 'init', 'wc_remove_storefront_breadcrumbs');
@@ -28,7 +54,6 @@ function my_theme_enqueue_styles() {
         remove_action( 'storefront_before_content', 'woocommerce_breadcrumb', 10 );
     }
 // -- END [ Remove Breadcrumbs ] -- Remove breadcrumbs for Storefront theme
-
 
 // -- [ Custom Footer ] -- Remove WooCommerce
     add_action( 'init', 'custom_remove_footer_credit', 10 );
@@ -44,7 +69,6 @@ function my_theme_enqueue_styles() {
         <?php
     }
 // -- END [ Custom Footer ] -- Remove WooCommerce
-
 
 // -- [ Display Amount Saved ] -- Add save percent next to sale item prices.
     function ts_you_save() {
@@ -67,7 +91,6 @@ function my_theme_enqueue_styles() {
     add_action( 'woocommerce_single_product_summary', 'ts_you_save', 11 );
 // -- END [ Display Amount Saved ] -- Add save percent next to sale item prices.
 
-
 // -- [ Remove Phone Number From Checkout ] -- //
     add_filter( 'woocommerce_checkout_fields' , 'asier_custom_checkout_fields', 20);
     function asier_custom_checkout_fields( $fields ){
@@ -78,6 +101,21 @@ function my_theme_enqueue_styles() {
     }
 // -- END [ Remove Phone Number From Checkout ] -- //
 
+// -- [ Remove Storefront Inline styles ] -- //
+add_action( 'wp_print_styles', 'remove_custom_inline_css', 100 );
+function remove_custom_inline_css(){
+	// - storefront-woocommerce-style-inline-css -- //
+    // wp_deregister_style('storefront-woocommerce-style');
+    // storefront-gutenberg-blocks-inline-css
+	//wp_dequeue_style( 'storefront-gutenberg-blocks' );
+    /* Remove storefront-style-inline-css */
+	wp_deregister_style('storefront-style');
+}
+
+
+// -- [ Remove wp-smiley ] -- //
+remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+remove_action( 'wp_print_styles', 'print_emoji_styles' );
 
 // -- [ Add: "How did you hear about us" field to Checkout page ] -- //
     add_filter( 'woocommerce_checkout_fields', 'aseir_custom_how_did_you_hear_about_us', 30 );
@@ -100,12 +138,12 @@ function my_theme_enqueue_styles() {
     }
 // -- END [ Add: "How did you hear about us" field to Checkout page ] -- //
 
-// -- [ Add Links To Specific pages ] -- //
+// -- [ Add CSS and JS Links To Specific pages ] -- //
 //-- Shop Page -- //
 // if( is_page( 331 ) ) {
 // wp_enqueue_script('shop-css', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',false);
 // }
-
+// -- [ the below code does not work ] -- //
 function load_assets() {
 	if ( is_page(array( 331, 'Shop', 'Shop Page' )) ) {
 		wp_enqueue_style('QQQ','/wp-content/themes/Aseir-Custom/assets/css/shop.css', false );

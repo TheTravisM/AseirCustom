@@ -45,7 +45,6 @@ Thumbs.db
 *.tar
 *.zip
 
-
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
@@ -65,7 +64,6 @@ wp-content/themes/magazine-pro
 wp-content/plugins/featured-video-plus
 wp-content/plugins/instapage
 
-
 # ignore node dependency directories
 node_modules/
 
@@ -74,7 +72,7 @@ node_modules/
 *.sql
 *.sqlite
 
-# --- [ github gitignore file ] --- 
+# --- [ github gitignore file ] ---
 *.log
 wp-config.php
 wp-content/advanced-cache.php

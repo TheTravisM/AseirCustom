@@ -14,7 +14,7 @@
 
 	<?php do_action( 'storefront_before_footer' ); ?>
     <!-- Aseir-Footer -->
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="aseir-footer site-footer" role="contentinfo">
 		<div class="col-full">
 
 			<?php

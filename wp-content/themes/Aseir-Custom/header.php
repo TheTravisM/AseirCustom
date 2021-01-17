@@ -9,7 +9,7 @@
 
 ?>
 <!doctype html>
-<html id="aseir-custom-html" <?php language_attributes(); ?>>
+<html id="aseir-html" <?php language_attributes(); ?>>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151965980-1"></script>
@@ -55,9 +55,16 @@
         <link href="https://secure.gravatar.com" rel="dns-prefetch">
         <link href="https://secure.gravatar.com" rel="preconnect" crossorigin="">
         <!-- Preload Fonts -->
-        <link rel="preload" as="font" type="font/woff2" importance="high" href="https://fonts.googleapis.com/css?family=Google+Sans:300,300i,400,400i,500,500i,700,700i%7CRoboto:300,300i,400,400i,500,500i,700,700i&display=swap" crossorigin="">
-        <link rel="preload" as="font" type="font/woff2" importance="high" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext&display=swap" crossorigin="">
-        <link rel="preload" as="font" type="font/woff2" importance="low" href="https://aseircustom.com/wp-content/themes/storefront/assets/fonts/fa-solid-900.woff" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="high"
+              href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/Aseir-Custom/assets/fonts/Montserrat-Regular.ttf" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="high"
+              href="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/Aseir-Custom/assets/fonts/Montserrat-Light.ttf" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="high"
+              href="https://fonts.googleapis.com/css?family=Google+Sans:300,300i,400,400i,500,500i,700,700i%7CRoboto:300,300i,400,400i,500,500i,700,700i&display=swap" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="high"
+              href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext&display=swap" crossorigin="">
+        <link rel="preload" as="font" type="font/woff2" importance="low"
+              href="https://aseircustom.com/wp-content/themes/storefront/assets/fonts/fa-solid-900.woff" crossorigin="">
         <!-- Prefetch Images -->
         <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/06/ghk-peptide-white-bg.jpg">
         <link as="image" rel="prefetch" href="https://i0.wp.com/aseircustom.com/wp-content/uploads/2019/06/ghk-peptide-white-bg-closed.jpg">
@@ -78,15 +85,15 @@
         <?php wp_head(); ?>
     </head>
 
-<body id="aseir-custom-body" <?php body_class('aseir-custom-body'); ?>>
+<body id="aseir-body" <?php body_class('aseir-body'); ?>>
 
 <?php do_action( 'storefront_before_site' ); ?>
 
-<div id="page" class="aseir-custom-page hfeed site">
+<div id="page" class="aseir-page hfeed site">
 	<?php do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead"
-            class="aseir-custom-header site-header"
+            class="aseir-header site-header"
             role="banner"
             style="<?php storefront_header_styles(); ?>">
         <section class="aseir-header_section col-full">
@@ -279,7 +286,7 @@
 	do_action( 'storefront_before_content' );
 	?>
 
-	<div id="content" class="aseir-custom-content site-content" tabindex="-1">
+	<div id="content" class="aseir-content site-content" tabindex="-1">
 		<div class="col-full">
 
 		<?php
