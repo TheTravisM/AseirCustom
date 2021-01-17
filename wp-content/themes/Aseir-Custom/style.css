@@ -1,71 +1,116 @@
-/*
-Theme Name:   Aseir Custom
-Theme URI:    https://github.com/TheTravisM/
-Author:       Travis E Mikolay
-Author URI:   https://github.com/TheTravisM/
-Template:     storefront
-Description:  Designed and developed by Travis Mikolay, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout & color options to personalise your shop, multiple widget regions, a responsive design and much more.
-Version:      1.11.7
-License:      GNU General Public License v2 or later
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  storefrontchild
-Tags:         kick ass, Awesome, e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-All sizing (typography, layout, padding/margins, etc) are inspired by a modular scale that uses 1em as a base size with a 1.618 ratio.
-You can read more about the calculator we use in our Sass here: https://github.com/modularscale/modularscale-sass
-
-FontAwesome License: SIL Open Font License - http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-Images License: GNU General Public License v2 or later
-*/
-:root {
-    /* -- [ Color Theme Swatches in Hex ] -- */
-
-    /* -- [ Aseir Custom : Yellow ] -- */
-    --color-ac-yellow: #d4af37;
-    --color-ac-yellow-light: #ffe168;
-    --color-ac-yellow-dark: #9f8000;
-    /* -- [ Aseir Custom : Blue ] -- */
-    --color-ac-blue: #0058de;
-    --color-ac-blue-light: #6284ff;
-    --color-ac-blue-dark: #0030aa;
-    /* -- [ Black ] -- */
-    --color-dark: #16161d;
-    --color-dark-rgba: rgba(22, 22, 29, 1);
-    --color-darkest: #000;
-
-    /* -- [ Danger - Red ] -- */
-    --color-danger: #e2401c; /* Red */
-    --color-success: #28a745; /* green */
-    --color-warning: #ffc107 /* yellow */
-}
-
-/* -- Header -- */
-
-/* -- [ Single Product Page ] -- */
-
-.you-save {
-    color: var( --color-danger, #e2401c ); /* Red */
-    font-size:24px;
-}
-
-/* -- [ Single Page Stock  ] -- */
-html body .stock.in-stock {
-    color: var( --color-success, #28a745 ) ; /* green */
-}
-html body .product .stock.out-of-stock {
-    color: var( --color-danger, #e2401c ); /* Red */
-}
-/* -- [ Checkout Page ] -- */
-
-/* -- hiding items to streamline checkout -- */
-html body.woocommerce-checkout .storefront-primary-navigation,
-html body.woocommerce-checkout .site-search,
-html body.woocommerce-checkout .footer-widgets {
-    display: none;
-}
-
-/* -- Account Page -- */
-html body.woocommerce-account { }
+:root {--color-ac-yellow: #d4af37;--color-ac-yellow-light: #ffe168;--color-ac-yellow-dark: #9f8000;--color-ac-blue: #0058de;--color-ac-blue-light: #6284ff;--color-ac-blue-dark: #0030aa;--color-dark: #16161d;--color-dark-rgba: rgba(22,22,29,1);--color-darkest: #000;--color-danger: #e2401c;--color-success: #28a745;--color-warning: #ffc107;}
+@font-face {font-family: "Montserrat";font-style: normal;font-weight: 300;font-display: swap;src: local("Montserrat Light"),local("Montserrat-Light"),url("../Aseir-Custom/assets/fonts/Montserrat-Light.ttf") format("truetype"),url("https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_vx3rCs.woff2") format("woff2");}
+@font-face {font-family: "Montserrat";font-style: normal;font-weight: 400;font-display: swap;src: local("Montserrat Regular"),local("Montserrat-Regular"),url("../Aseir-Custom/assets/fonts/Montserrat-Regular.ttf") format("truetype"),url("https://www.thetravism.github.io/AseirCustom/wp-content/themes/Aseir-Custom/assets/fonts/Montserrat-Regular.ttf") format("truetype"),url("https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2") format("woff2");}
+html body#aseir-body {font-weight: 300;font-family: "Montserrat",source sans pro,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;}
+html body#aseir-body #content a:not(.button), html body#aseir-body #content a:not(.button):visited {color: var(--color-dark,#16161d);}
+html body#aseir-body #content a:not(.button):hover, html body#aseir-body #content a:not(.button):focus, html body#aseir-body #content a:not(.button):active {color: #000;}
+html body#aseir-body #content a.button, html body#aseir-body #content button, html body#aseir-body #content input[type="button"] {background-color: var(--color-dark,#16161d);border: 1px solid var(--color-dark,#16161d);color: #eee;font-weight: 300 !important;font-size: 13px;text-shadow: 0 0 1px rgba(0,0,0,.01);text-transform: uppercase;}
+html body#aseir-body #content a.button:hover, html body#aseir-body #content button:hover, html body#aseir-body #content input[type="button"]:hover {border: 1px solid var(--color-dark,#16161d);background-color: #656565;color: #fff;text-shadow: 0 0 3px rgba(0,0,0,.75);}
+.wc-forward::after {transition: transform .3s ease;}
+.wc-forward:hover::after {-webkit-transform: translateX(4px);transform: translateX(2px);}
+header.aseir-header {margin: 0;margin-bottom: 4.235801032em;padding: 0;background-color: var(--color-dark,#16161d);}
+header.aseir-header ul {margin: 0;padding: 0;}
+section.aseir-header_section {height: 64px;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: space-between;align-items: center;position: relative;}
+section.aseir-header_section h1.aseir-header-logo_h1 {display: inline-flex;flex-direction: row;margin: 0;padding: 0;}
+section.aseir-header_section h1 a.aseir-header-logo_link-icon {display: flex;height: 100%;align-items: center;}
+section.aseir-header_section h1 svg.aseir-logo-icon {height: 42px;}
+section.aseir-header_section h1 a.aseir-header-logo_link-text {display: flex;justify-content: center;align-items: center;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);}
+section.aseir-header_section h1 svg.aseir-logo-text {height: 36px;max-width: calc(100vw - 200px);width: 265px;}
+section.aseir-header_section button#aseir-nav-toggle {margin-left: auto;}
+#aseir-nav-toggle:not(.open) ~ nav#aseir-header-nav {left: 100vw;-moz-box-shadow: 0 0 0 0 rgba(0,0,0,.1);-webkit-box-shadow: 0 0 0 0 rgba(0,0,0,.1);box-shadow: 0 0 0 0 rgba(0,0,0,.1);}
+#aseir-nav-toggle:not(.open) ~ .overlay {left: 100vw;transition: left .5s ease;background-color: rgba(0,0,0,0);opacity: 0;}
+.overlay {min-height: 100vh;min-width: 100vw;background-color: rgba(0,0,0,.5);position: fixed;top: 0;z-index: -1;left: 0;opacity: 1;transition: opacity .5s ease;}
+nav#aseir-header-nav {display: block;position: absolute;top: 65px;width: 100%;left: 56px;min-height: calc(100vh - 134px);overflow-x: hidden;overflow-y: scroll;transition: left .5s ease,box-shadow .5s ease;background-color: #16161d;z-index: 10;-moz-box-shadow: -5px 5px 11px 5px rgba(0,0,0,.5);-webkit-box-shadow: -5px 5px 11px 5px rgba(0,0,0,.5);box-shadow: -5px 5px 11px 5px rgba(0,0,0,.5);}
+nav#aseir-header-nav ul {display: flex;flex-direction: column;list-style-type: none;}
+nav#aseir-header-nav a, nav#aseir-header-nav a:visited {height: 56px;display: flex;padding-left: 48px;font-size: 21px;color: #999;align-items: center;text-decoration: none;text-transform: uppercase;}
+nav#aseir-header-nav a:hover, nav#aseir-header-nav a:focus, nav#aseir-header-nav a:active {color: #fff;background-color: #16161d;}
+@media (min-width:768px) {section.aseir-header_section {height: auto;}
+	section.aseir-header_section h1.aseir-header-logo_h1 {display: flex;width: 100%;margin: 16px 0;}
+	section.aseir-header_section h1 a {}
+	section.aseir-header_section svg#aseir-logo-icon {height: 56px;}
+	section.aseir-header_section h1 a.aseir-header-logo_link-text {margin: 10px 0 0 10px;transform: translate(0,0);position: initial;}
+	section.aseir-header_section svg#aseir-logo-text {height: 20px;width: auto;}
+	nav#aseir-header-nav ul.aseir-header-nav_menu-mobile {display: none;}
+	section.aseir-header_section button#aseir-nav-toggle {display: none;}
+	.overlay {display: none;}
+	nav#aseir-header-nav {display: inline-flex;opacity: 1 !important;left: 0 !important;top: 0 !important;position: relative;width: auto;overflow: visible;overflow-y: visible;min-height: auto;background-color: transparent;}
+	nav#aseir-header-nav:before {content: none;}
+	nav#aseir-header-nav ul.aseir-header-nav_menu {display: inline-flex;flex-direction: row;list-style-type: none;margin-left: -24px;}
+	nav#aseir-header-nav ul.aseir-header-nav_menu li a, nav#aseir-header-nav ul.aseir-header-nav_menu li a:visited {align-items: center;color: #bbb;display: flex;height: 56px;font-size: 14px;padding: 0 24px;text-decoration: none;text-transform: uppercase;text-shadow: 0 0 1px rgba(0,0,0,.01);}
+	nav#aseir-header-nav ul.aseir-header-nav_menu li a:hover, nav#aseir-header-nav ul.aseir-header-nav_menu li a:focus, nav#aseir-header-nav ul.aseir-header-nav_menu li a:active {color: #fff;text-shadow: 0 0 3px rgba(0,0,0,.75);}
+	nav#aseir-header-nav ul.aseir-header-nav_menu li a:focus {outline: #999;}
+	ul#site-header-cart {display: flex;align-items: center;margin-left: auto;width: 350px;position: absolute;right: 0;top: 0;}
+	ul#site-header-cart li {width: 100%;}
+	li.site-header-cart_li-first {min-width: 100%;height: 56px;display: flex;align-items: center;}
+	ul#site-header-cart a.cart-contents {color: #eee;text-align: right;width: 160px;margin-left: auto;}
+	ul#site-header-cart a.cart-contents span {margin-right: 12px;}
+	#site-header-cart div.widget_shopping_cart {background-color: #fcfcfc;color: #7e7e7e;border: 1px solid rgba(0,0,0,.05);-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.5);-moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.5);box-shadow: 0 2px 3px 0 rgba(0,0,0,.5);}
+	#site-header-cart div.widget_shopping_cart a:not(.button) {color: #7e7e7e;}
+	#site-header-cart div.widget_shopping_cart a:not(.button):hover {color: #5e5e5e;}
+	#site-header-cart div.widget_shopping_cart span.quantity {color: #43454b;}
+	#site-header-cart div.widget_shopping_cart a.remove_from_cart_button {left: -5px;width: 14px;margin-right: 8px;}
+	#site-header-cart div.widget_shopping_cart a.remove_from_cart_button:hover:before {color: #e2401c;color: var(--color-danger,#e2401c);}
+	#site-header-cart div.widget_shopping_cart p.total, #site-header-cart div.widget_shopping_cart p.buttons {background-color: #fcfcfc;color: #7e7e7e;}}
+#aseir-nav-toggle {border: 0;background-color: transparent;overflow: hidden;width: 48px;height: 48px;position: relative;-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .5s ease-in-out;-moz-transition: .5s ease-in-out;-o-transition: .5s ease-in-out;transition: .5s ease-in-out;cursor: pointer;}
+#aseir-nav-toggle span {display: block;position: absolute;height: 2px;width: 50%;background-color: #fff;opacity: 1;-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);-webkit-transition: .25s ease-in-out;-moz-transition: .25s ease-in-out;-o-transition: .25s ease-in-out;transition: .25s ease-in-out;}
+#aseir-nav-toggle span:nth-child(even) {left: 50%;}
+#aseir-nav-toggle span:nth-child(odd) {left: 0px;}
+#aseir-nav-toggle span:nth-child(1), #aseir-nav-toggle span:nth-child(2) {top: 20%;}
+#aseir-nav-toggle span:nth-child(3), #aseir-nav-toggle span:nth-child(4) {top: calc(50% - 1px);}
+#aseir-nav-toggle span:nth-child(5), #aseir-nav-toggle span:nth-child(6) {bottom: 20%;}
+#aseir-nav-toggle.open span:nth-child(1), #aseir-nav-toggle.open span:nth-child(6) {-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}
+#aseir-nav-toggle.open span:nth-child(2), #aseir-nav-toggle.open span:nth-child(5) {-webkit-transform: rotate(-45deg);-moz-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}
+#aseir-nav-toggle.open span:nth-child(1), #aseir-nav-toggle.open span:nth-child(2) {top: 30%;}
+#aseir-nav-toggle.open span:nth-child(1) {left: 4px;}
+#aseir-nav-toggle.open span:nth-child(2) {left: calc(50% - 4px);}
+#aseir-nav-toggle.open span:nth-child(3) {left: -50%;opacity: 0;}
+#aseir-nav-toggle.open span:nth-child(4) {left: 100%;opacity: 0;}
+#aseir-nav-toggle.open span:nth-child(5), #aseir-nav-toggle.open span:nth-child(6) {bottom: calc(30% + 1px);}
+#aseir-nav-toggle.open span:nth-child(5) {left: 4px;}
+#aseir-nav-toggle.open span:nth-child(6) {left: calc(50% - 4px);}
+html#aseir-html body#aseir-body header#aseir-header .widget_shopping_cart a.button.wc-forward:link[href$="/cart/"], html#aseir-html body#aseir-body #content .widget_shopping_cart a.button.wc-forward:link[href$="/cart/"] {font-weight: 300 !important;border: 1px solid var(--color-dark,#16161d);border-color: var(--color-dark,#16161d);color: var(--color-dark,#16161d);background-color: #fff;text-transform: uppercase;text-shadow: none;}
+html body#aseir-body .widget_shopping_cart a.button:link:hover {border: 1px solid var(--color-dark,#16161d);border-color: var(--color-dark,#16161d);text-shadow: none;}
+html body#aseir-body .widget_shopping_cart a.button.checkout {background-color: var(--color-dark,#16161d);border: 1px solid var(--color-dark,#16161d);color: #eee;font-weight: 300 !important;text-shadow: 0 0 1px rgba(0,0,0,.01);text-transform: uppercase;}
+html body#aseir-body .widget_shopping_cart_content a.button.checkout:hover {border: 1px solid var(--color-dark,#16161d);background-color: #656565;color: #fff;text-shadow: 0 0 3px rgba(0,0,0,.75);}
+html body#aseir-body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {border: 1px solid var(--color-dark,#16161d);background-color: var(--color-dark,#16161d);color: #eee;font-weight: 300 !important;text-transform: uppercase;text-shadow: 0 0 1px rgba(0,0,0,.01);}
+html body#aseir-body #content a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart:hover {border: 1px solid var(--color-dark,#16161d);background-color: #656565;color: #fff;text-shadow: 0 0 3px rgba(0,0,0,.75);}
+body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {display: grid;grid-column-gap: 16px;grid-row-gap: 16px;padding: 0;margin: 0;grid-template-columns: repeat(auto-fit,minmax(100%,1fr));}
+body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products:before {content: none;display: none;}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product {-webkit-box-flex: 1;display: flex;flex: 1;flex-direction: column;max-width: 100%;margin: 0;padding: 0;justify-content: space-between;align-items: center;}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.wc-block-grid__product-link {margin-bottom: auto;}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product .wc-block-grid__product-add-to-cart {width: 100%;}
+body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {display: flex;align-items: center;justify-content: center;margin: 0 auto;max-width: 320px;height: 48px;font-size: 18px;}
+html body#aseir-body #content .wc-block-featured-product__link a.wp-block-button__link {background-color: var(--color-ac-blue,#0058de);color: #fff;font-weight: 300 !important;min-width: 200px;text-transform: uppercase;text-shadow: 0 0 1px rgba(0,0,0,.01);box-shadow: 0 0 1px 1px rgba(0,0,0,.01);}
+html body#aseir-body #content .wc-block-featured-product__link a.wp-block-button__link:hover {background-color: var(--color-ac-blue-dark,#0030aa);color: #fff;text-shadow: 0 0 3px rgba(0,0,0,.75);box-shadow: 0 0 5px 1px rgba(0,0,0,.75);}
+@media (min-width:576px) {body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {grid-column-gap: 2%;grid-template-columns: repeat(auto-fit,minmax(48%,1fr));}
+	body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {max-width: 230px;}}
+@media (min-width:768px) {body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {grid-column-gap: 2%;grid-template-columns: repeat(auto-fit,minmax(31%,1fr));}
+	body.home .wc-block-grid.has-4-columns li.wc-block-grid__product {}
+	body.home .wc-block-grid.has-4-columns li.wc-block-grid__product a.add_to_cart_button {max-width: 200px;}}
+@media (min-width: 992px) {body.home .wc-block-grid.has-4-columns ul.wc-block-grid__products {grid-column-gap: 2%;grid-template-columns: repeat(auto-fit,minmax(23%,1fr));}}
+body.post-type-archive-product ul.products.columns-3 {display: grid;grid-column-gap: 16px;grid-row-gap: 16px;padding: 0;margin: 0;margin-bottom: 2.617924em;grid-template-columns: repeat(auto-fit,minmax(100%,1fr));}
+body.post-type-archive-product ul.products.columns-3:before {content: none;display: none;}
+body.post-type-archive-product ul.products.columns-3 li.product {-webkit-box-flex: 1;display: flex;flex: 1;flex-direction: column;max-width: 100%;margin: 0;padding: 0;justify-content: space-between;align-items: center;}
+body.post-type-archive-product ul.products.columns-3 li.product a.woocommerce-LoopProduct-link {margin-bottom: auto;}
+body.post-type-archive-product ul.products.columns-3 li.product a.button {display: flex;align-items: center;justify-content: center;margin: 0 auto;max-width: 320px;width: 100%;height: 48px;font-size: 18px;}
+@media (min-width:576px) {body.post-type-archive-product ul.products.columns-3 {grid-column-gap: 2%;grid-template-columns: repeat(auto-fit,minmax(48%,1fr));}
+	body.post-type-archive-product ul.products.columns-3 li.wc-block-grid__product a.button {max-width: 230px;}}
+@media (min-width:768px) {body.post-type-archive-product ul.products.columns-3 {grid-column-gap: 2%;grid-template-columns: repeat(auto-fit,minmax(48%,1fr));}
+	body.post-type-archive-product ul.products.columns-3 li.product {width: 100%;}
+	body.post-type-archive-product ul.products.columns-3 li.product a.button {max-width: 200px;}}
+@media (min-width: 992px) {body.post-type-archive-product ul.products.columns-3 {grid-column-gap: 2%;grid-template-columns: repeat(auto-fit,minmax(32%,1fr));}}
+span.posted-on {display: none;}
+.you-save {color: #e2401c;color: var(--color-danger,#e2401c);font-size: 24px;}
+html body#aseir-body .stock.in-stock {color: #28a745;color: var(--color-success,#28a745);}
+html body#aseir-body .product .stock.out-of-stock {color: #e2401c;color: var(--color-danger,#e2401c);}
+html body.woocommerce-cart a.remove:hover:before {color: #e2401c;color: var(--color-danger,#e2401c);}
+html body.woocommerce-checkout .storefront-primary-navigation, html body.woocommerce-checkout .site-search, html body.woocommerce-checkout .footer-widgets {display: none;}
+html body.woocommerce-account {}
+html body.woocommerce-account .woocommerce-MyAccount-navigation ul li a {text-transform: uppercase;}
+footer.site-footer {background-color: var(--color-dark,#16161d);color: #999;}
+footer.site-footer a:link {color: #999;}
+footer.site-footer a:link:hover {color: #fff;text-shadow: 0 0 3px var(--color-dark,#16161d);}
+footer.site-footer .site-info {color: #999;}
+footer.site-footer .storefront-handheld-footer-bar {border-top: 1px solid #fff;}
+footer.site-footer .storefront-handheld-footer-bar li a:not(.button) {color: #fff;background-color: var(--color-dark,#16161d);}
+footer.site-footer .storefront-handheld-footer-bar ul li.cart .count {background-color: var(--color-dark,#16161d);}
