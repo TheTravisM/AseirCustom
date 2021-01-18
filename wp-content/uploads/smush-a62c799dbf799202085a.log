@@ -1,0 +1,538 @@
+[2019-06-21 01:53:06 : INFO] - Re_Smush_It_Task with attachment ID : 347, autocreated on : June 21, 2019 01:53:06 
+[2019-06-21 01:53:42 : INFO] - Re_Smush_It_Task with attachment ID : 348, autocreated on : June 21, 2019 01:53:42 
+[2019-06-21 02:47:18 : INFO] - 
+ 
+[2019-06-21 02:47:18 : INFO] - Header for logs at time:  Fri, 21 Jun 2019 02:47:18 +0000 on http://aseircustom.com 
+[2019-06-21 02:47:18 : INFO] - WP: 5.2.2 
+[2019-06-21 02:47:18 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb306.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-06-21 02:47:18 : INFO] - MySQL: 5.6.32 
+[2019-06-21 02:47:18 : INFO] - WPLANG: en_US 
+[2019-06-21 02:47:18 : INFO] - Server:  
+[2019-06-21 02:47:18 : INFO] - Outbound connections: N 
+[2019-06-21 02:47:18 : INFO] - safe_mode: 0 
+[2019-06-21 02:47:18 : INFO] - max_execution_time: 300 
+[2019-06-21 02:47:18 : INFO] - memory_limit: -1 (used: 124.5M | 131.3M) 
+[2019-06-21 02:47:18 : INFO] - multisite: N 
+[2019-06-21 02:47:18 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-06-21 02:47:18 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-06-21 02:47:18 : INFO] - Re_Smush_It_Task with attachment ID : 347, autocreated on : June 21, 2019 01:53:06 
+[2019-06-21 02:47:18 : INFO] - 95 
+[2019-06-21 02:47:20 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/drop-of-water-drip-flower-plant-40752-updraft-pre-smush-original.jpeg 
+[2019-06-21 02:47:20 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/drop-of-water-drip-flower-plant-40752.jpeg.The file was compressed from 138.29 KB to 138.29 KB saving 0 percent using WP-Optimize 
+[2019-06-21 02:47:20 : INFO] - Completed processing task with ID : 1, and type 'smush' 
+[2019-06-21 02:47:20 : INFO] - Re_Smush_It_Task with attachment ID : 348, autocreated on : June 21, 2019 01:53:42 
+[2019-06-21 02:47:20 : INFO] - 95 
+[2019-06-21 02:47:22 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/cropped-beautiful-2844189_1920-2-updraft-pre-smush-original.jpg 
+[2019-06-21 02:47:23 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/cropped-beautiful-2844189_1920-2.jpg.The file was compressed from 210.61 KB to 210.61 KB saving 0 percent using WP-Optimize 
+[2019-06-21 02:47:23 : INFO] - Completed processing task with ID : 2, and type 'smush' 
+[2019-06-21 02:47:23 : INFO] - Successfully processed the queue (smush). A total of 2 tasks were processed. 
+[2019-06-21 02:47:23 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-06-21 03:14:43 : INFO] - Re_Smush_It_Task with attachment ID : 350, autocreated on : June 21, 2019 03:14:43 
+[2019-06-21 03:23:44 : INFO] - Re_Smush_It_Task with attachment ID : 354, autocreated on : June 21, 2019 03:23:44 
+[2019-06-21 03:31:29 : INFO] - Re_Smush_It_Task with attachment ID : 356, autocreated on : June 21, 2019 03:31:29 
+[2019-06-21 04:01:40 : INFO] - 
+ 
+[2019-06-21 04:01:40 : INFO] - Header for logs at time:  Fri, 21 Jun 2019 04:01:40 +0000 on http://aseircustom.com 
+[2019-06-21 04:01:40 : INFO] - WP: 5.2.2 
+[2019-06-21 04:01:40 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb313.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-06-21 04:01:40 : INFO] - MySQL: 5.6.32 
+[2019-06-21 04:01:40 : INFO] - WPLANG: en_US 
+[2019-06-21 04:01:40 : INFO] - Server:  
+[2019-06-21 04:01:40 : INFO] - Outbound connections: N 
+[2019-06-21 04:01:40 : INFO] - safe_mode: 0 
+[2019-06-21 04:01:40 : INFO] - max_execution_time: 300 
+[2019-06-21 04:01:40 : INFO] - memory_limit: -1 (used: 123.2M | 131M) 
+[2019-06-21 04:01:40 : INFO] - multisite: N 
+[2019-06-21 04:01:40 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-06-21 04:01:40 : INFO] - A total of 3 tasks of type smush found and will be processed in this iteration 
+[2019-06-21 04:01:40 : INFO] - Re_Smush_It_Task with attachment ID : 354, autocreated on : June 21, 2019 03:23:44 
+[2019-06-21 04:01:40 : INFO] - 95 
+[2019-06-21 04:01:41 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/pexels-photo-286951-updraft-pre-smush-original.jpeg 
+[2019-06-21 04:01:41 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/pexels-photo-286951.jpeg.The file was compressed from 63.89 KB to 63.89 KB saving 0 percent using WP-Optimize 
+[2019-06-21 04:01:42 : INFO] - Completed processing task with ID : 4, and type 'smush' 
+[2019-06-21 04:01:42 : INFO] - Re_Smush_It_Task with attachment ID : 350, autocreated on : June 21, 2019 03:14:43 
+[2019-06-21 04:01:42 : INFO] - 95 
+[2019-06-21 04:01:43 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/pexels-photo-1249632-updraft-pre-smush-original.jpeg 
+[2019-06-21 04:01:43 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/pexels-photo-1249632.jpeg.The file was compressed from 66.57 KB to 66.57 KB saving 0 percent using WP-Optimize 
+[2019-06-21 04:01:43 : INFO] - Completed processing task with ID : 3, and type 'smush' 
+[2019-06-21 04:01:43 : INFO] - Re_Smush_It_Task with attachment ID : 356, autocreated on : June 21, 2019 03:31:29 
+[2019-06-21 04:01:43 : INFO] - 95 
+[2019-06-21 04:01:46 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/pexels-photo-167704-updraft-pre-smush-original.jpeg 
+[2019-06-21 04:01:46 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/06/pexels-photo-167704.jpeg.The file was compressed from 170.58 KB to 170.58 KB saving 0 percent using WP-Optimize 
+[2019-06-21 04:01:46 : INFO] - Completed processing task with ID : 5, and type 'smush' 
+[2019-06-21 04:01:46 : INFO] - Successfully processed the queue (smush). A total of 3 tasks were processed. 
+[2019-06-21 04:01:46 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2019-06-21 04:17:37 : INFO] - 
+ 
+[2019-06-21 04:17:37 : INFO] - Header for logs at time:  Fri, 21 Jun 2019 04:17:37 +0000 on http://aseircustom.com 
+[2019-06-21 04:17:37 : INFO] - WP: 5.2.2 
+[2019-06-21 04:17:37 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb313.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-06-21 04:17:37 : INFO] - MySQL: 5.6.32 
+[2019-06-21 04:17:37 : INFO] - WPLANG: en_US 
+[2019-06-21 04:17:37 : INFO] - Server:  
+[2019-06-21 04:17:37 : INFO] - Outbound connections: N 
+[2019-06-21 04:17:37 : INFO] - safe_mode: 0 
+[2019-06-21 04:17:37 : INFO] - max_execution_time: 300 
+[2019-06-21 04:17:37 : INFO] - memory_limit: -1 (used: 123.1M | 131.3M) 
+[2019-06-21 04:17:37 : INFO] - multisite: N 
+[2019-06-21 04:17:37 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-06-21 04:17:37 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-07-03 06:01:16 : INFO] - Re_Smush_It_Task with attachment ID : 365, autocreated on : July 03, 2019 06:01:16 
+[2019-07-03 06:12:00 : INFO] - 
+ 
+[2019-07-03 06:12:00 : INFO] - Header for logs at time:  Wed, 03 Jul 2019 06:12:00 +0000 on http://aseircustom.com 
+[2019-07-03 06:12:00 : INFO] - WP: 5.2.2 
+[2019-07-03 06:12:00 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb292.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-07-03 06:12:00 : INFO] - MySQL: 5.6.32 
+[2019-07-03 06:12:00 : INFO] - WPLANG: en_US 
+[2019-07-03 06:12:00 : INFO] - Server:  
+[2019-07-03 06:12:00 : INFO] - Outbound connections: N 
+[2019-07-03 06:12:00 : INFO] - safe_mode: 0 
+[2019-07-03 06:12:00 : INFO] - max_execution_time: 300 
+[2019-07-03 06:12:00 : INFO] - memory_limit: -1 (used: 131.5M | 140M) 
+[2019-07-03 06:12:00 : INFO] - multisite: N 
+[2019-07-03 06:12:00 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-07-03 06:12:00 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-03 06:12:00 : INFO] - Re_Smush_It_Task with attachment ID : 365, autocreated on : July 03, 2019 06:01:16 
+[2019-07-03 06:12:00 : INFO] - 95 
+[2019-07-03 06:12:01 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/07/aseir-custom-logo-updraft-pre-smush-original.png 
+[2019-07-03 06:12:01 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/07/aseir-custom-logo.png.The file was compressed from 10.64 KB to 5.46 KB saving 48.7 percent using WP-Optimize 
+[2019-07-03 06:12:01 : INFO] - Completed processing task with ID : 6, and type 'smush' 
+[2019-07-03 06:12:01 : INFO] - Successfully processed the queue (smush). A total of 1 tasks were processed. 
+[2019-07-03 06:12:01 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-03 06:27:40 : INFO] - 
+ 
+[2019-07-03 06:27:40 : INFO] - Header for logs at time:  Wed, 03 Jul 2019 06:27:40 +0000 on http://aseircustom.com 
+[2019-07-03 06:27:40 : INFO] - WP: 5.2.2 
+[2019-07-03 06:27:40 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb292.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-07-03 06:27:40 : INFO] - MySQL: 5.6.32 
+[2019-07-03 06:27:40 : INFO] - WPLANG: en_US 
+[2019-07-03 06:27:40 : INFO] - Server:  
+[2019-07-03 06:27:40 : INFO] - Outbound connections: N 
+[2019-07-03 06:27:40 : INFO] - safe_mode: 0 
+[2019-07-03 06:27:40 : INFO] - max_execution_time: 300 
+[2019-07-03 06:27:40 : INFO] - memory_limit: -1 (used: 131.6M | 139.3M) 
+[2019-07-03 06:27:40 : INFO] - multisite: N 
+[2019-07-03 06:27:40 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-07-03 06:27:40 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-07-03 06:47:31 : INFO] - Re_Smush_It_Task with attachment ID : 374, autocreated on : July 03, 2019 06:47:31 
+[2019-07-03 06:55:40 : INFO] - 
+ 
+[2019-07-03 06:55:40 : INFO] - Header for logs at time:  Wed, 03 Jul 2019 06:55:40 +0000 on http://aseircustom.com 
+[2019-07-03 06:55:40 : INFO] - WP: 5.2.2 
+[2019-07-03 06:55:40 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb299.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-07-03 06:55:40 : INFO] - MySQL: 5.6.32 
+[2019-07-03 06:55:40 : INFO] - WPLANG: en_US 
+[2019-07-03 06:55:40 : INFO] - Server:  
+[2019-07-03 06:55:40 : INFO] - Outbound connections: N 
+[2019-07-03 06:55:40 : INFO] - safe_mode: 0 
+[2019-07-03 06:55:40 : INFO] - max_execution_time: 300 
+[2019-07-03 06:55:40 : INFO] - memory_limit: -1 (used: 131.6M | 139.8M) 
+[2019-07-03 06:55:40 : INFO] - multisite: N 
+[2019-07-03 06:55:40 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-07-03 06:55:40 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-07-03 06:55:40 : INFO] - Re_Smush_It_Task with attachment ID : 374, autocreated on : July 03, 2019 06:47:31 
+[2019-07-03 06:55:40 : INFO] - 95 
+[2019-07-03 06:55:41 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/07/aseir-custom-logo-1-updraft-pre-smush-original.png 
+[2019-07-03 06:55:41 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/07/aseir-custom-logo-1.png.The file was compressed from 11.75 KB to 5.86 KB saving 50.14 percent using WP-Optimize 
+[2019-07-03 06:55:41 : INFO] - Completed processing task with ID : 7, and type 'smush' 
+[2019-07-03 06:55:41 : INFO] - Successfully processed the queue (smush). A total of 1 tasks were processed. 
+[2019-07-03 06:55:41 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-07-03 07:09:02 : INFO] - 
+ 
+[2019-07-03 07:09:02 : INFO] - Header for logs at time:  Wed, 03 Jul 2019 07:09:02 +0000 on http://aseircustom.com 
+[2019-07-03 07:09:02 : INFO] - WP: 5.2.2 
+[2019-07-03 07:09:02 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb313.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-07-03 07:09:02 : INFO] - MySQL: 5.6.32 
+[2019-07-03 07:09:02 : INFO] - WPLANG: en_US 
+[2019-07-03 07:09:02 : INFO] - Server:  
+[2019-07-03 07:09:02 : INFO] - Outbound connections: N 
+[2019-07-03 07:09:02 : INFO] - safe_mode: 0 
+[2019-07-03 07:09:02 : INFO] - max_execution_time: 300 
+[2019-07-03 07:09:02 : INFO] - memory_limit: -1 (used: 132.9M | 139.3M) 
+[2019-07-03 07:09:02 : INFO] - multisite: N 
+[2019-07-03 07:09:02 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-07-03 07:09:02 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-07-03 08:59:16 : INFO] - Re_Smush_It_Task with attachment ID : 375, autocreated on : July 03, 2019 08:59:16 
+[2019-07-03 09:01:01 : INFO] - Re_Smush_It_Task with attachment ID : 376, autocreated on : July 03, 2019 09:01:01 
+[2019-07-03 09:09:48 : INFO] - 
+ 
+[2019-07-03 09:09:48 : INFO] - Header for logs at time:  Wed, 03 Jul 2019 09:09:48 +0000 on http://aseircustom.com 
+[2019-07-03 09:09:48 : INFO] - WP: 5.2.2 
+[2019-07-03 09:09:48 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb320.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-07-03 09:09:48 : INFO] - MySQL: 5.6.32 
+[2019-07-03 09:09:48 : INFO] - WPLANG: en_US 
+[2019-07-03 09:09:48 : INFO] - Server:  
+[2019-07-03 09:09:48 : INFO] - Outbound connections: N 
+[2019-07-03 09:09:48 : INFO] - safe_mode: 0 
+[2019-07-03 09:09:48 : INFO] - max_execution_time: 300 
+[2019-07-03 09:09:48 : INFO] - memory_limit: -1 (used: 133M | 139.8M) 
+[2019-07-03 09:09:48 : INFO] - multisite: N 
+[2019-07-03 09:09:48 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-07-03 09:09:48 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-07-03 09:09:48 : INFO] - Re_Smush_It_Task with attachment ID : 376, autocreated on : July 03, 2019 09:01:01 
+[2019-07-03 09:09:48 : INFO] - 95 
+[2019-07-03 09:09:49 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/07/aseircustomlogo-updraft-pre-smush-original.png 
+[2019-07-03 09:09:49 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/07/aseircustomlogo.png.The file was compressed from 11.26 KB to 5.64 KB saving 49.95 percent using WP-Optimize 
+[2019-07-03 09:09:49 : INFO] - Completed processing task with ID : 9, and type 'smush' 
+[2019-07-03 09:09:49 : INFO] - Task with ID 8 and type (smush) failed with error code invalid_file_path - The linked attachment ID does not have a valid file path 
+[2019-07-03 09:09:49 : INFO] - Successfully processed the queue (smush). A total of 2 tasks were processed. 
+[2019-07-03 09:09:49 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-07-03 09:24:54 : INFO] - 
+ 
+[2019-07-03 09:24:54 : INFO] - Header for logs at time:  Wed, 03 Jul 2019 09:24:53 +0000 on http://aseircustom.com 
+[2019-07-03 09:24:54 : INFO] - WP: 5.2.2 
+[2019-07-03 09:24:54 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb292.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-07-03 09:24:54 : INFO] - MySQL: 5.6.32 
+[2019-07-03 09:24:54 : INFO] - WPLANG: en_US 
+[2019-07-03 09:24:54 : INFO] - Server:  
+[2019-07-03 09:24:54 : INFO] - Outbound connections: N 
+[2019-07-03 09:24:54 : INFO] - safe_mode: 0 
+[2019-07-03 09:24:54 : INFO] - max_execution_time: 300 
+[2019-07-03 09:24:54 : INFO] - memory_limit: -1 (used: 131.6M | 139.8M) 
+[2019-07-03 09:24:54 : INFO] - multisite: N 
+[2019-07-03 09:24:54 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-07-03 09:24:54 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-08-15 05:24:02 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:33:59 : INFO] - 
+ 
+[2019-08-15 05:33:59 : INFO] - Header for logs at time:  Thu, 15 Aug 2019 05:33:59 +0000 on http://aseircustom.com 
+[2019-08-15 05:33:59 : INFO] - WP: 5.2.2 
+[2019-08-15 05:33:59 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb313.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-08-15 05:33:59 : INFO] - MySQL: 5.6.32 
+[2019-08-15 05:33:59 : INFO] - WPLANG: en_US 
+[2019-08-15 05:33:59 : INFO] - Server:  
+[2019-08-15 05:33:59 : INFO] - Outbound connections: N 
+[2019-08-15 05:33:59 : INFO] - safe_mode: 0 
+[2019-08-15 05:33:59 : INFO] - max_execution_time: 300 
+[2019-08-15 05:33:59 : INFO] - memory_limit: -1 (used: 133.6M | 142M) 
+[2019-08-15 05:33:59 : INFO] - multisite: N 
+[2019-08-15 05:33:59 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-08-15 05:33:59 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-08-15 05:33:59 : INFO] - Set semaphore last lock (smush) time to 2019-08-15 05:33:59 
+[2019-08-15 05:33:59 : INFO] - Semaphore lock (smush) complete 
+[2019-08-15 05:33:59 : INFO] - Processing task with ID : 10, and type 'smush' 
+[2019-08-15 05:33:59 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:33:59 : INFO] - 95 
+[2019-08-15 05:34:00 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/08/ghk-copper-peptide-blue-powder-updraft-pre-smush-original.jpg 
+[2019-08-15 05:34:00 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:34:00 : INFO] - 95 
+[2019-08-15 05:34:01 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:34:01 : INFO] - 95 
+[2019-08-15 05:34:02 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:34:02 : INFO] - 95 
+[2019-08-15 05:34:03 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:34:03 : INFO] - 95 
+[2019-08-15 05:34:04 : INFO] - Re_Smush_It_Task with attachment ID : 384, autocreated on : August 15, 2019 05:24:02 
+[2019-08-15 05:34:04 : INFO] - 95 
+[2019-08-15 05:34:05 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/08/ghk-copper-peptide-blue-powder.jpg.The file was compressed from 8.21 KB to 8.21 KB saving 0 percent using WP-Optimize 
+[2019-08-15 05:34:05 : INFO] - Completed processing task with ID : 10, and type 'smush' 
+[2019-08-15 05:34:05 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-08-15 05:34:05 : INFO] - Semaphore (smush) unlocked 
+[2019-08-15 05:34:05 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-08-15 05:34:05 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) was successfully cleaned up 
+[2019-08-15 05:34:05 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-08-15 05:54:48 : INFO] - 
+ 
+[2019-08-15 05:54:48 : INFO] - Header for logs at time:  Thu, 15 Aug 2019 05:54:48 +0000 on http://aseircustom.com 
+[2019-08-15 05:54:48 : INFO] - WP: 5.2.2 
+[2019-08-15 05:54:48 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb299.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-08-15 05:54:48 : INFO] - MySQL: 5.6.32 
+[2019-08-15 05:54:48 : INFO] - WPLANG: en_US 
+[2019-08-15 05:54:48 : INFO] - Server:  
+[2019-08-15 05:54:48 : INFO] - Outbound connections: N 
+[2019-08-15 05:54:48 : INFO] - safe_mode: 0 
+[2019-08-15 05:54:48 : INFO] - max_execution_time: 300 
+[2019-08-15 05:54:48 : INFO] - memory_limit: -1 (used: 133.6M | 141.8M) 
+[2019-08-15 05:54:48 : INFO] - multisite: N 
+[2019-08-15 05:54:48 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-08-15 05:54:48 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-04 17:43:26 : INFO] - Re_Smush_It_Task with attachment ID : 388, autocreated on : September 04, 2019 05:43:26 
+[2019-09-04 17:43:38 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 17:43:49 : INFO] - Re_Smush_It_Task with attachment ID : 390, autocreated on : September 04, 2019 05:43:48 
+[2019-09-04 18:11:05 : INFO] - 
+ 
+[2019-09-04 18:11:05 : INFO] - Header for logs at time:  Wed, 04 Sep 2019 18:11:05 +0000 on https://aseircustom.com 
+[2019-09-04 18:11:05 : INFO] - WP: 5.2.2 
+[2019-09-04 18:11:05 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb313.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-04 18:11:05 : INFO] - MySQL: 5.6.32 
+[2019-09-04 18:11:05 : INFO] - WPLANG: en_US 
+[2019-09-04 18:11:05 : INFO] - Server:  
+[2019-09-04 18:11:05 : INFO] - Outbound connections: N 
+[2019-09-04 18:11:05 : INFO] - safe_mode: 0 
+[2019-09-04 18:11:05 : INFO] - max_execution_time: 300 
+[2019-09-04 18:11:05 : INFO] - memory_limit: -1 (used: 134.9M | 141M) 
+[2019-09-04 18:11:05 : INFO] - multisite: N 
+[2019-09-04 18:11:05 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-04 18:11:05 : INFO] - A total of 3 tasks of type smush found and will be processed in this iteration 
+[2019-09-04 18:11:05 : INFO] - Set semaphore last lock (smush) time to 2019-09-04 18:11:05 
+[2019-09-04 18:11:05 : INFO] - Semaphore lock (smush) complete 
+[2019-09-04 18:11:05 : INFO] - Processing task with ID : 11, and type 'smush' 
+[2019-09-04 18:11:05 : INFO] - Task with ID 11 and type (smush) failed with error code invalid_file_path - The linked attachment ID does not have a valid file path 
+[2019-09-04 18:11:05 : INFO] - Processing task with ID : 12, and type 'smush' 
+[2019-09-04 18:11:06 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:06 : INFO] - 95 
+[2019-09-04 18:11:14 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/MGN-8752-1-updraft-pre-smush-original.jpg 
+[2019-09-04 18:11:14 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:14 : INFO] - 95 
+[2019-09-04 18:11:15 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:15 : INFO] - 95 
+[2019-09-04 18:11:16 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:16 : INFO] - 95 
+[2019-09-04 18:11:18 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:18 : INFO] - 95 
+[2019-09-04 18:11:19 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:20 : INFO] - 95 
+[2019-09-04 18:11:22 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:22 : INFO] - 95 
+[2019-09-04 18:11:24 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:24 : INFO] - 95 
+[2019-09-04 18:11:25 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:25 : INFO] - 95 
+[2019-09-04 18:11:27 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:27 : INFO] - 95 
+[2019-09-04 18:11:29 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:29 : INFO] - 95 
+[2019-09-04 18:11:30 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:30 : INFO] - 95 
+[2019-09-04 18:11:33 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:33 : INFO] - 95 
+[2019-09-04 18:11:34 : INFO] - Re_Smush_It_Task with attachment ID : 389, autocreated on : September 04, 2019 05:43:38 
+[2019-09-04 18:11:34 : INFO] - 95 
+[2019-09-04 18:11:35 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/MGN-8752-1.jpg.The file was compressed from 3.80 MB to 1.92 MB saving 49.57 percent using WP-Optimize 
+[2019-09-04 18:11:35 : INFO] - Completed processing task with ID : 12, and type 'smush' 
+[2019-09-04 18:11:35 : INFO] - Set semaphore last lock (smush) time to 2019-09-04 18:11:35 
+[2019-09-04 18:11:35 : INFO] - Processing task with ID : 13, and type 'smush' 
+[2019-09-04 18:11:36 : INFO] - Re_Smush_It_Task with attachment ID : 390, autocreated on : September 04, 2019 05:43:48 
+[2019-09-04 18:11:36 : INFO] - 95 
+[2019-09-04 18:28:15 : INFO] - 
+ 
+[2019-09-04 18:28:15 : INFO] - Header for logs at time:  Wed, 04 Sep 2019 18:28:15 +0000 on https://aseircustom.com 
+[2019-09-04 18:28:15 : INFO] - WP: 5.2.2 
+[2019-09-04 18:28:15 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb299.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-04 18:28:15 : INFO] - MySQL: 5.6.32 
+[2019-09-04 18:28:15 : INFO] - WPLANG: en_US 
+[2019-09-04 18:28:15 : INFO] - Server:  
+[2019-09-04 18:28:15 : INFO] - Outbound connections: N 
+[2019-09-04 18:28:15 : INFO] - safe_mode: 0 
+[2019-09-04 18:28:15 : INFO] - max_execution_time: 300 
+[2019-09-04 18:28:15 : INFO] - memory_limit: -1 (used: 133.4M | 142.3M) 
+[2019-09-04 18:28:15 : INFO] - multisite: N 
+[2019-09-04 18:28:15 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-04 18:28:15 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-04 18:28:15 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) was stuck, set lock time to 2019-09-04 18:28:15 
+[2019-09-04 18:28:15 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) reset to 1 
+[2019-09-04 18:28:15 : INFO] - Set semaphore last lock (smush) time to 2019-09-04 18:28:15 
+[2019-09-04 18:28:15 : INFO] - Semaphore lock (smush) complete 
+[2019-09-04 18:28:19 : INFO] - Task with ID 13 and type (smush) failed with error code could_not_lock - The task could not be locked 
+[2019-09-04 18:28:19 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-04 18:28:19 : INFO] - Semaphore (smush) unlocked 
+[2019-09-04 18:28:19 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-04 18:28:19 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) was successfully cleaned up 
+[2019-09-04 18:28:19 : INFO] - Cleaning up tasks of type (smush). A total of 3 tasks will be deleted. 
+[2019-09-04 18:46:21 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:25 : INFO] - 
+ 
+[2019-09-04 19:25:25 : INFO] - Header for logs at time:  Wed, 04 Sep 2019 19:25:25 +0000 on https://aseircustom.com 
+[2019-09-04 19:25:25 : INFO] - WP: 5.2.2 
+[2019-09-04 19:25:25 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb313.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-04 19:25:25 : INFO] - MySQL: 5.6.32 
+[2019-09-04 19:25:25 : INFO] - WPLANG: en_US 
+[2019-09-04 19:25:25 : INFO] - Server:  
+[2019-09-04 19:25:25 : INFO] - Outbound connections: N 
+[2019-09-04 19:25:25 : INFO] - safe_mode: 0 
+[2019-09-04 19:25:25 : INFO] - max_execution_time: 300 
+[2019-09-04 19:25:25 : INFO] - memory_limit: -1 (used: 133.4M | 141M) 
+[2019-09-04 19:25:25 : INFO] - multisite: N 
+[2019-09-04 19:25:25 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-04 19:25:25 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-04 19:25:25 : INFO] - Set semaphore last lock (smush) time to 2019-09-04 19:25:25 
+[2019-09-04 19:25:25 : INFO] - Semaphore lock (smush) complete 
+[2019-09-04 19:25:25 : INFO] - Processing task with ID : 14, and type 'smush' 
+[2019-09-04 19:25:25 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:25 : INFO] - 95 
+[2019-09-04 19:25:30 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/MGN-8771-updraft-pre-smush-original.jpg 
+[2019-09-04 19:25:31 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:31 : INFO] - 95 
+[2019-09-04 19:25:32 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:32 : INFO] - 95 
+[2019-09-04 19:25:32 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:33 : INFO] - 95 
+[2019-09-04 19:25:34 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:34 : INFO] - 95 
+[2019-09-04 19:25:36 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:36 : INFO] - 95 
+[2019-09-04 19:25:36 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:36 : INFO] - 95 
+[2019-09-04 19:25:43 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:43 : INFO] - 95 
+[2019-09-04 19:25:45 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:45 : INFO] - 95 
+[2019-09-04 19:25:46 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:46 : INFO] - 95 
+[2019-09-04 19:25:48 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:48 : INFO] - 95 
+[2019-09-04 19:25:49 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:49 : INFO] - 95 
+[2019-09-04 19:25:52 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:52 : INFO] - 95 
+[2019-09-04 19:25:53 : INFO] - Re_Smush_It_Task with attachment ID : 394, autocreated on : September 04, 2019 06:46:21 
+[2019-09-04 19:25:53 : INFO] - 95 
+[2019-09-04 19:25:55 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/MGN-8771.jpg.The file was compressed from 1.78 MB to 939.57 KB saving 48.59 percent using WP-Optimize 
+[2019-09-04 19:25:55 : INFO] - Completed processing task with ID : 14, and type 'smush' 
+[2019-09-04 19:25:55 : INFO] - Set semaphore last lock (smush) time to 2019-09-04 19:25:55 
+[2019-09-04 19:25:55 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-04 19:25:55 : INFO] - Semaphore (smush) unlocked 
+[2019-09-04 19:25:55 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-04 19:25:55 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) was successfully cleaned up 
+[2019-09-04 19:25:55 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-04 19:41:08 : INFO] - 
+ 
+[2019-09-04 19:41:08 : INFO] - Header for logs at time:  Wed, 04 Sep 2019 19:41:08 +0000 on https://aseircustom.com 
+[2019-09-04 19:41:08 : INFO] - WP: 5.2.2 
+[2019-09-04 19:41:08 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb306.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-04 19:41:08 : INFO] - MySQL: 5.6.32 
+[2019-09-04 19:41:08 : INFO] - WPLANG: en_US 
+[2019-09-04 19:41:08 : INFO] - Server:  
+[2019-09-04 19:41:08 : INFO] - Outbound connections: N 
+[2019-09-04 19:41:08 : INFO] - safe_mode: 0 
+[2019-09-04 19:41:08 : INFO] - max_execution_time: 300 
+[2019-09-04 19:41:08 : INFO] - memory_limit: -1 (used: 133.4M | 141M) 
+[2019-09-04 19:41:08 : INFO] - multisite: N 
+[2019-09-04 19:41:08 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-04 19:41:08 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-26 15:51:37 : INFO] - Re_Smush_It_Task with attachment ID : 408, autocreated on : September 26, 2019 03:51:37 
+[2019-09-26 15:52:10 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:15 : INFO] - 
+ 
+[2019-09-26 16:26:15 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 16:26:15 +0000 on https://aseircustom.com 
+[2019-09-26 16:26:15 : INFO] - WP: 5.2.3 
+[2019-09-26 16:26:15 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb320.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-26 16:26:15 : INFO] - MySQL: 5.6.32 
+[2019-09-26 16:26:15 : INFO] - WPLANG: en_US 
+[2019-09-26 16:26:15 : INFO] - Server:  
+[2019-09-26 16:26:15 : INFO] - Outbound connections: N 
+[2019-09-26 16:26:15 : INFO] - safe_mode: 0 
+[2019-09-26 16:26:15 : INFO] - max_execution_time: 300 
+[2019-09-26 16:26:15 : INFO] - memory_limit: -1 (used: 136.3M | 143M) 
+[2019-09-26 16:26:15 : INFO] - multisite: N 
+[2019-09-26 16:26:15 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-26 16:26:16 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-09-26 16:26:16 : INFO] - Set semaphore last lock (smush) time to 2019-09-26 16:26:16 
+[2019-09-26 16:26:16 : INFO] - Semaphore lock (smush) complete 
+[2019-09-26 16:26:16 : INFO] - Processing task with ID : 16, and type 'smush' 
+[2019-09-26 16:26:16 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:16 : INFO] - 95 
+[2019-09-26 16:26:17 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/cropped-aseir-custom-logo-FAVICON-3-updraft-pre-smush-original.png 
+[2019-09-26 16:26:17 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:17 : INFO] - 95 
+[2019-09-26 16:26:18 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:18 : INFO] - 95 
+[2019-09-26 16:26:19 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:19 : INFO] - 95 
+[2019-09-26 16:26:22 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:22 : INFO] - 95 
+[2019-09-26 16:26:23 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:23 : INFO] - 95 
+[2019-09-26 16:26:24 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:24 : INFO] - 95 
+[2019-09-26 16:26:25 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:25 : INFO] - 95 
+[2019-09-26 16:26:26 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:26 : INFO] - 95 
+[2019-09-26 16:26:27 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:27 : INFO] - 95 
+[2019-09-26 16:26:28 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:28 : INFO] - 95 
+[2019-09-26 16:26:29 : INFO] - Re_Smush_It_Task with attachment ID : 409, autocreated on : September 26, 2019 03:52:10 
+[2019-09-26 16:26:29 : INFO] - 95 
+[2019-09-26 16:26:30 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/cropped-aseir-custom-logo-FAVICON-3.png.The file was compressed from 23.99 KB to 11.11 KB saving 53.69 percent using WP-Optimize 
+[2019-09-26 16:26:30 : INFO] - Completed processing task with ID : 16, and type 'smush' 
+[2019-09-26 16:26:30 : INFO] - Processing task with ID : 15, and type 'smush' 
+[2019-09-26 16:26:30 : INFO] - Re_Smush_It_Task with attachment ID : 408, autocreated on : September 26, 2019 03:51:37 
+[2019-09-26 16:26:30 : INFO] - 95 
+[2019-09-26 16:26:31 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/aseir-custom-logo-FAVICON-3-updraft-pre-smush-original.png 
+[2019-09-26 16:26:31 : INFO] - Re_Smush_It_Task with attachment ID : 408, autocreated on : September 26, 2019 03:51:37 
+[2019-09-26 16:26:31 : INFO] - 95 
+[2019-09-26 16:26:32 : INFO] - Re_Smush_It_Task with attachment ID : 408, autocreated on : September 26, 2019 03:51:37 
+[2019-09-26 16:26:32 : INFO] - 95 
+[2019-09-26 16:26:33 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/aseir-custom-logo-FAVICON-3.png.The file was compressed from 810 bytes to 542 bytes saving 33.09 percent using WP-Optimize 
+[2019-09-26 16:26:33 : INFO] - Completed processing task with ID : 15, and type 'smush' 
+[2019-09-26 16:26:33 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-26 16:26:33 : INFO] - Semaphore (smush) unlocked 
+[2019-09-26 16:26:33 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2019-09-26 16:26:33 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) was successfully cleaned up 
+[2019-09-26 16:26:33 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-09-26 16:56:44 : INFO] - 
+ 
+[2019-09-26 16:56:44 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 16:56:44 +0000 on https://aseircustom.com 
+[2019-09-26 16:56:44 : INFO] - WP: 5.2.3 
+[2019-09-26 16:56:44 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb320.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-26 16:56:44 : INFO] - MySQL: 5.6.32 
+[2019-09-26 16:56:44 : INFO] - WPLANG: en_US 
+[2019-09-26 16:56:44 : INFO] - Server:  
+[2019-09-26 16:56:44 : INFO] - Outbound connections: N 
+[2019-09-26 16:56:44 : INFO] - safe_mode: 0 
+[2019-09-26 16:56:44 : INFO] - max_execution_time: 300 
+[2019-09-26 16:56:44 : INFO] - memory_limit: -1 (used: 136.4M | 143.5M) 
+[2019-09-26 16:56:44 : INFO] - multisite: N 
+[2019-09-26 16:56:44 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-26 16:56:44 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-09-26 18:53:36 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:44 : INFO] - 
+ 
+[2019-09-26 19:11:44 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 19:11:44 +0000 on https://aseircustom.com 
+[2019-09-26 19:11:44 : INFO] - WP: 5.2.3 
+[2019-09-26 19:11:44 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb285.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-26 19:11:45 : INFO] - MySQL: 5.6.32 
+[2019-09-26 19:11:45 : INFO] - WPLANG: en_US 
+[2019-09-26 19:11:45 : INFO] - Server:  
+[2019-09-26 19:11:45 : INFO] - Outbound connections: N 
+[2019-09-26 19:11:45 : INFO] - safe_mode: 0 
+[2019-09-26 19:11:45 : INFO] - max_execution_time: 300 
+[2019-09-26 19:11:45 : INFO] - memory_limit: -1 (used: 136.4M | 143.8M) 
+[2019-09-26 19:11:45 : INFO] - multisite: N 
+[2019-09-26 19:11:45 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-26 19:11:45 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-09-26 19:11:45 : INFO] - Set semaphore last lock (smush) time to 2019-09-26 19:11:45 
+[2019-09-26 19:11:45 : INFO] - Semaphore lock (smush) complete 
+[2019-09-26 19:11:45 : INFO] - Processing task with ID : 17, and type 'smush' 
+[2019-09-26 19:11:45 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:45 : INFO] - 95 
+[2019-09-26 19:11:46 : INFO] - Backing up the original image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/aseir-custom-logo-FAVICON-4-updraft-pre-smush-original.png 
+[2019-09-26 19:11:47 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:47 : INFO] - 95 
+[2019-09-26 19:11:47 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:47 : INFO] - 95 
+[2019-09-26 19:11:50 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:50 : INFO] - 95 
+[2019-09-26 19:11:53 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:53 : INFO] - 95 
+[2019-09-26 19:11:55 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:55 : INFO] - 95 
+[2019-09-26 19:11:56 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:56 : INFO] - 95 
+[2019-09-26 19:11:57 : INFO] - Re_Smush_It_Task with attachment ID : 415, autocreated on : September 26, 2019 06:53:36 
+[2019-09-26 19:11:57 : INFO] - 95 
+[2019-09-26 19:11:59 : INFO] - Successfully optimized the image - /home/content/p3pnexwpnas14_data03/19/42667819/html/wp-content/uploads/2019/09/aseir-custom-logo-FAVICON-4.png.The file was compressed from 12.67 KB to 8.49 KB saving 32.96 percent using WP-Optimize 
+[2019-09-26 19:11:59 : INFO] - Completed processing task with ID : 17, and type 'smush' 
+[2019-09-26 19:11:59 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-09-26 19:11:59 : INFO] - Semaphore (smush) unlocked 
+[2019-09-26 19:11:59 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-09-26 19:11:59 : INFO] - Semaphore (smush, wp_hhyg52mqpd_options) was successfully cleaned up 
+[2019-09-26 19:11:59 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-09-26 20:47:31 : INFO] - 
+ 
+[2019-09-26 20:47:31 : INFO] - Header for logs at time:  Thu, 26 Sep 2019 20:47:31 +0000 on https://aseircustom.com 
+[2019-09-26 20:47:31 : INFO] - WP: 5.2.3 
+[2019-09-26 20:47:31 : INFO] - PHP: 5.6.30 (cli, Linux p3nlwpweb299.prod.phx3.secureserver.net 2.6.32-896.16.1.lve1.4.51.el6.nfsfixes.x86_64 #1 SMP Wed Mar 21 11:58:39 MST 2018 x86_64) 
+[2019-09-26 20:47:31 : INFO] - MySQL: 5.6.32 
+[2019-09-26 20:47:31 : INFO] - WPLANG: en_US 
+[2019-09-26 20:47:31 : INFO] - Server:  
+[2019-09-26 20:47:31 : INFO] - Outbound connections: N 
+[2019-09-26 20:47:31 : INFO] - safe_mode: 0 
+[2019-09-26 20:47:31 : INFO] - max_execution_time: 300 
+[2019-09-26 20:47:31 : INFO] - memory_limit: -1 (used: 136.4M | 143.5M) 
+[2019-09-26 20:47:31 : INFO] - multisite: N 
+[2019-09-26 20:47:31 : INFO] - openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 
+[2019-09-26 20:47:31 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
