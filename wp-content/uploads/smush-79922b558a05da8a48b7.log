@@ -1,0 +1,121 @@
+[2019-11-05 13:53:13 : INFO] - Re_Smush_It_Task with attachment ID : 442, autocreated on : November 05, 2019 01:53:13 
+[2019-11-05 13:54:16 : INFO] - Re_Smush_It_Task with attachment ID : 444, autocreated on : November 05, 2019 01:54:16 
+[2019-11-05 13:58:19 : INFO] - 
+ 
+[2019-11-05 13:58:19 : INFO] - Header for logs at time:  Tue, 05 Nov 2019 13:58:19 +0000 on http://localhost:8888/Aseir_Custom 
+[2019-11-05 13:58:19 : INFO] - WP: 5.4-alpha-46622 
+[2019-11-05 13:58:19 : INFO] - PHP: 7.3.1 (apache2handler, Darwin ohcintmikolay-m3.corp.local 18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64 x86_64) 
+[2019-11-05 13:58:19 : INFO] - MySQL: 5.7.25 
+[2019-11-05 13:58:19 : INFO] - WPLANG: en_US 
+[2019-11-05 13:58:19 : INFO] - Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.1 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0 
+[2019-11-05 13:58:19 : INFO] - Outbound connections: N 
+[2019-11-05 13:58:19 : INFO] - safe_mode: 0 
+[2019-11-05 13:58:19 : INFO] - max_execution_time: 30 
+[2019-11-05 13:58:19 : INFO] - memory_limit: 128M (used: 61.8M | 7M) 
+[2019-11-05 13:58:19 : INFO] - multisite: N 
+[2019-11-05 13:58:19 : INFO] - openssl: OpenSSL 1.0.2o  27 Mar 2018 
+[2019-11-05 13:58:19 : INFO] - A total of 2 tasks of type smush found and will be processed in this iteration 
+[2019-11-05 13:58:19 : INFO] - Set semaphore last lock (smush) time to 2019-11-05 13:58:19 
+[2019-11-05 13:58:19 : INFO] - Semaphore lock (smush) complete 
+[2019-11-05 13:58:19 : INFO] - Processing task with ID : 18, and type 'smush' 
+[2019-11-05 13:58:19 : INFO] - Re_Smush_It_Task with attachment ID : 442, autocreated on : November 05, 2019 01:53:13 
+[2019-11-05 13:58:19 : INFO] - 95 
+[2019-11-05 13:58:20 : INFO] - Backing up the original image - /Users/tmikolay/GitHub/wp-sites/Aseir_Custom/wp-content/uploads/2019/07/cropped-aseircustomlogo-updraft-pre-smush-original.png 
+[2019-11-05 13:58:20 : INFO] - Re_Smush_It_Task with attachment ID : 442, autocreated on : November 05, 2019 01:53:13 
+[2019-11-05 13:58:20 : INFO] - 95 
+[2019-11-05 13:58:21 : INFO] - Re_Smush_It_Task with attachment ID : 442, autocreated on : November 05, 2019 01:53:13 
+[2019-11-05 13:58:21 : INFO] - 95 
+[2019-11-05 13:58:22 : INFO] - Re_Smush_It_Task with attachment ID : 442, autocreated on : November 05, 2019 01:53:13 
+[2019-11-05 13:58:22 : INFO] - 95 
+[2019-11-05 13:58:23 : INFO] - Re_Smush_It_Task with attachment ID : 442, autocreated on : November 05, 2019 01:53:13 
+[2019-11-05 13:58:23 : INFO] - 95 
+[2019-11-05 13:58:23 : INFO] - Task with ID 18 and type (smush) failed with error code 402 - Cannot copy from uploaded file 
+[2019-11-05 13:58:23 : INFO] - Successfully optimized the image - /Users/tmikolay/GitHub/wp-sites/Aseir_Custom/wp-content/uploads/2019/07/cropped-aseircustomlogo.png.The file was compressed from 3.68 KB to 3.68 KB saving 0 percent using WP-Optimize 
+[2019-11-05 13:58:23 : INFO] - Completed processing task with ID : 18, and type 'smush' 
+[2019-11-05 13:58:23 : INFO] - Processing task with ID : 19, and type 'smush' 
+[2019-11-05 13:58:23 : INFO] - Re_Smush_It_Task with attachment ID : 444, autocreated on : November 05, 2019 01:54:16 
+[2019-11-05 13:58:23 : INFO] - 95 
+[2019-11-05 13:58:24 : INFO] - Backing up the original image - /Users/tmikolay/GitHub/wp-sites/Aseir_Custom/wp-content/uploads/2019/07/cropped-aseircustomlogo-1-updraft-pre-smush-original.png 
+[2019-11-05 13:58:24 : INFO] - Re_Smush_It_Task with attachment ID : 444, autocreated on : November 05, 2019 01:54:16 
+[2019-11-05 13:58:24 : INFO] - 95 
+[2019-11-05 13:58:24 : INFO] - Task with ID 19 and type (smush) failed with error code 402 - Cannot copy from uploaded file 
+[2019-11-05 13:58:24 : INFO] - Re_Smush_It_Task with attachment ID : 444, autocreated on : November 05, 2019 01:54:16 
+[2019-11-05 13:58:24 : INFO] - 95 
+[2019-11-05 13:58:25 : INFO] - Re_Smush_It_Task with attachment ID : 444, autocreated on : November 05, 2019 01:54:16 
+[2019-11-05 13:58:25 : INFO] - 95 
+[2019-11-05 13:58:26 : INFO] - Successfully optimized the image - /Users/tmikolay/GitHub/wp-sites/Aseir_Custom/wp-content/uploads/2019/07/cropped-aseircustomlogo-1.png.The file was compressed from 3.65 KB to 3.65 KB saving 0 percent using WP-Optimize 
+[2019-11-05 13:58:26 : INFO] - Completed processing task with ID : 19, and type 'smush' 
+[2019-11-05 13:58:26 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-11-05 13:58:26 : INFO] - Semaphore (smush) unlocked 
+[2019-11-05 13:58:26 : INFO] - Successfully processed the queue (smush). 2 tasks were processed out of 2. 
+[2019-11-05 13:58:26 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-11-05 13:58:26 : INFO] - Cleaning up tasks of type (smush). A total of 2 tasks will be deleted. 
+[2019-11-05 14:08:33 : INFO] - 
+ 
+[2019-11-05 14:08:33 : INFO] - Header for logs at time:  Tue, 05 Nov 2019 14:08:33 +0000 on http://localhost:8888/Aseir_Custom 
+[2019-11-05 14:08:33 : INFO] - WP: 5.4-alpha-46622 
+[2019-11-05 14:08:33 : INFO] - PHP: 7.3.1 (apache2handler, Darwin ohcintmikolay-m3.corp.local 18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64 x86_64) 
+[2019-11-05 14:08:33 : INFO] - MySQL: 5.7.25 
+[2019-11-05 14:08:33 : INFO] - WPLANG: en_US 
+[2019-11-05 14:08:33 : INFO] - Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.1 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0 
+[2019-11-05 14:08:33 : INFO] - Outbound connections: N 
+[2019-11-05 14:08:33 : INFO] - safe_mode: 0 
+[2019-11-05 14:08:33 : INFO] - max_execution_time: 30 
+[2019-11-05 14:08:33 : INFO] - memory_limit: 256M (used: 61.8M | 63M) 
+[2019-11-05 14:08:33 : INFO] - multisite: N 
+[2019-11-05 14:08:33 : INFO] - openssl: OpenSSL 1.0.2o  27 Mar 2018 
+[2019-11-05 14:08:33 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
+[2019-12-09 16:55:04 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:06 : INFO] - 
+ 
+[2019-12-09 17:00:06 : INFO] - Header for logs at time:  Mon, 09 Dec 2019 17:00:06 +0000 on http://localhost:8888/Aseir_Custom 
+[2019-12-09 17:00:06 : INFO] - WP: 5.4-alpha-46622 
+[2019-12-09 17:00:06 : INFO] - PHP: 7.3.1 (apache2handler, Darwin ohcintmikolay-m3.corp.local 18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64 x86_64) 
+[2019-12-09 17:00:06 : INFO] - MySQL: 5.7.25 
+[2019-12-09 17:00:06 : INFO] - WPLANG: en_US 
+[2019-12-09 17:00:06 : INFO] - Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.1 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0 
+[2019-12-09 17:00:06 : INFO] - Outbound connections: N 
+[2019-12-09 17:00:06 : INFO] - safe_mode: 0 
+[2019-12-09 17:00:06 : INFO] - max_execution_time: 30 
+[2019-12-09 17:00:06 : INFO] - memory_limit: 128M (used: 45.9M | 4.5M) 
+[2019-12-09 17:00:06 : INFO] - multisite: N 
+[2019-12-09 17:00:06 : INFO] - openssl: OpenSSL 1.0.2o  27 Mar 2018 
+[2019-12-09 17:00:06 : INFO] - A total of 1 tasks of type smush found and will be processed in this iteration 
+[2019-12-09 17:00:06 : INFO] - Set semaphore last lock (smush) time to 2019-12-09 17:00:06 
+[2019-12-09 17:00:06 : INFO] - Semaphore lock (smush) complete 
+[2019-12-09 17:00:06 : INFO] - Processing task with ID : 20, and type 'smush' 
+[2019-12-09 17:00:06 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:06 : INFO] - 95 
+[2019-12-09 17:00:07 : INFO] - Backing up the original image - 2019/12/AC-Email-Header-updraft-pre-smush-original.jpg 
+[2019-12-09 17:00:07 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:07 : INFO] - 95 
+[2019-12-09 17:00:08 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:08 : INFO] - 95 
+[2019-12-09 17:00:09 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:09 : INFO] - 95 
+[2019-12-09 17:00:09 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:09 : INFO] - 95 
+[2019-12-09 17:00:10 : INFO] - Re_Smush_It_Task with attachment ID : 628, autocreated on : December 09, 2019 04:55:04 
+[2019-12-09 17:00:10 : INFO] - 95 
+[2019-12-09 17:00:11 : INFO] - Successfully optimized the image - /Users/tmikolay/GitHub/wp-sites/Aseir_Custom/wp-content/uploads/2019/12/AC-Email-Header.jpg.The file was compressed from 16.68 KB to 9.98 KB saving 40.13 percent using WP-Optimize 
+[2019-12-09 17:00:11 : INFO] - Completed processing task with ID : 20, and type 'smush' 
+[2019-12-09 17:00:11 : INFO] - Decremented the semaphore (smush) by 1 
+[2019-12-09 17:00:11 : INFO] - Semaphore (smush) unlocked 
+[2019-12-09 17:00:11 : INFO] - Successfully processed the queue (smush). 1 tasks were processed out of 1. 
+[2019-12-09 17:00:11 : INFO] - Semaphore (smush, wp_options) was successfully cleaned up 
+[2019-12-09 17:00:11 : INFO] - Cleaning up tasks of type (smush). A total of 1 tasks will be deleted. 
+[2019-12-09 18:07:12 : INFO] - 
+ 
+[2019-12-09 18:07:12 : INFO] - Header for logs at time:  Mon, 09 Dec 2019 18:07:12 +0000 on http://localhost:8888/Aseir_Custom 
+[2019-12-09 18:07:12 : INFO] - WP: 5.4-alpha-46622 
+[2019-12-09 18:07:12 : INFO] - PHP: 7.3.1 (apache2handler, Darwin ohcintmikolay-m3.corp.local 18.7.0 Darwin Kernel Version 18.7.0: Sat Oct 12 00:02:19 PDT 2019; root:xnu-4903.278.12~1/RELEASE_X86_64 x86_64) 
+[2019-12-09 18:07:12 : INFO] - MySQL: 5.7.25 
+[2019-12-09 18:07:12 : INFO] - WPLANG: en_US 
+[2019-12-09 18:07:12 : INFO] - Server: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.3.1 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0 
+[2019-12-09 18:07:12 : INFO] - Outbound connections: N 
+[2019-12-09 18:07:12 : INFO] - safe_mode: 0 
+[2019-12-09 18:07:12 : INFO] - max_execution_time: 30 
+[2019-12-09 18:07:12 : INFO] - memory_limit: 128M (used: 45.9M | 4.5M) 
+[2019-12-09 18:07:12 : INFO] - multisite: N 
+[2019-12-09 18:07:12 : INFO] - openssl: OpenSSL 1.0.2o  27 Mar 2018 
+[2019-12-09 18:07:12 : INFO] - The queue for tasks of type "smush" is empty. Aborting! 
